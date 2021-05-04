@@ -7,7 +7,13 @@ export const AppWraapper = () => {
 
     const [data, setData] = useState([])
     const SERVER_ENDPOINT = `http://localhost:3001`
-    const dataUrl = `${SERVER_ENDPOINT}/data?from=04/01/2021&to=04/30/2021`
+    let dataUrl;
+    if(process.env.NODE_ENV === 'development') {
+        dataUrl = `${SERVER_ENDPOINT}/data?from=04/01/2021&to=04/30/2021`
+    } else {
+        dataUrl = './data.json'
+    }
+    
 
     useEffect(() => {
         getRequest(dataUrl).then(res => setData(res)).catch(err => console.log(err))
