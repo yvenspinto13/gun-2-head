@@ -14,6 +14,9 @@ def get_links():
         links.append(item['href'])
     return links
 
+def download_link(link, exten= None):
+    return download(link, './covid-reports', '', exten)
+
 def download_links(links, exten = None):
     for i in links:
         download(i, './covid-reports', '', exten)

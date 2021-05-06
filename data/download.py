@@ -22,3 +22,5 @@ def download(url: str, dest_folder: str, index: str, exten = None):
                     os.fsync(f.fileno())
     else:  # HTTP status code 4XX/5XX
         print("Download failed: status code {}\n{}".format(r.status_code, r.text))
+    
+    return filename
