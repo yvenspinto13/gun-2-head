@@ -2,6 +2,8 @@
 
 Just an accountability repo to know the gross misconduct of the givernement of goa
 
+[You can view the UI here](https://gun2-head.herokuapp.com/)
+
 This is a work in progress, but I hope to complete it
 
 For now, you can clone the repo and run and manipulate it and do what you like
