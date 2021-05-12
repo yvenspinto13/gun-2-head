@@ -1,14 +1,17 @@
 import os
 import requests
 
-def download(url: str, dest_folder: str, index: str, exten = None):
-    if not os.path.exists(dest_folder):
-        os.makedirs(dest_folder)  # create folder if it does not exist
-
+def gen_filename(url: str,index: str, exten = None):
     filename = url.split('/')[-1].split('?')[0].replace(" ", "_")  # be careful with file names
     filename = index + '_' + filename
     if exten != None:
         filename = filename.split(exten)[0].rstrip('-') + exten
+
+def download(url: str, dest_folder: str, index: str, exten = None):
+    if not os.path.exists(dest_folder):
+        os.makedirs(dest_folder)  # create folder if it does not exist
+
+    filename = gen_filename(url, index, exten)
     file_path = os.path.join(dest_folder, filename)
 
     r = requests.get(url,headers={'User-Agent': 'firefox'}, stream=True)

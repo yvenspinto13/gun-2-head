@@ -1,5 +1,5 @@
 import './App.css';
-import { AppWraapper } from './wrapper/AppWrapper';
+import { AppWrapper } from './wrapper/AppWrapper';
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         Goa, Covid, Accountability
       </header>
-      <AppWraapper />
+      <AppWrapper />
     </div>
   );
 }

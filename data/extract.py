@@ -10,13 +10,26 @@ js = 'json/'
 ext = '.pdf'
 folder = './covid-reports/'
 
+
+# REALLLY NEED TO MAKE THIS SCRIPT REACTIVE ..................... 
+
+
 def get_new(nn):
-        return int(nn.split('(')[0])
+        return nn.split('(')[0]
 
 def get_file_list(fl):
         l = glob.glob(fl + '*.pdf')
         l = [f.split('/')[2].split('.')[0] for f in l]
         return l
+
+def extract_int(data,r_index,index, isNew = False):
+        try:
+                val = int(get_new(data[index]) if isNew else data[index])
+                return val
+        except ValueError:
+                r_index += 1
+                return extract_int(data,r_index,index+1)
+
 
 def get_extracted_json(lines):
         extractJson = {}
@@ -27,28 +40,30 @@ def get_extracted_json(lines):
         extractJson['institiution']['telephone'] = lines[3].split(' ')[1]
         extractJson['institiution']['email'] = lines[4].split(':')[1]
         extractJson['date'] = lines[5]
-        coreData = lines[10:36]
+        coreData = lines[10:]
+        r_index = 0
+        print(coreData)
         extractJson['recovery_rate']=float(coreData[0].split('%')[0])
-        extractJson['recovered_patients']= int(coreData[1])
-        extractJson['recovery_24']= int(coreData[2])
+        extractJson['recovered_patients']= extract_int(coreData, r_index, r_index+1)
+        extractJson['recovery_24']= extract_int(coreData, r_index, r_index+2)
         extractJson['home_isolation']= {}
-        extractJson['home_isolation']['cummulative']= int(coreData[9])
-        extractJson['home_isolation']['new']=  get_new(coreData[11])
+        extractJson['home_isolation']['cummulative']= extract_int(coreData, r_index, r_index+9)
+        extractJson['home_isolation']['new']= extract_int(coreData, r_index, r_index+11, isNew=True)
         extractJson['hospitalized']= {}
-        extractJson['hospitalized']['cummulative']= int(coreData[10])
-        extractJson['hospitalized']['new']=  get_new(coreData[12])
+        extractJson['hospitalized']['cummulative']=extract_int(coreData, r_index, r_index+10)
+        extractJson['hospitalized']['new']=extract_int(coreData, r_index, r_index+12, isNew=True)
         extractJson['tested']= {}
-        extractJson['tested']['cummulative']=int(coreData[24])
-        extractJson['tested']['new']=  get_new(coreData[13])
+        extractJson['tested']['cummulative']=extract_int(coreData, r_index, r_index+27)
+        extractJson['tested']['new']= extract_int(coreData, r_index, r_index+13, isNew=True)
         extractJson['total_cases']= {}
-        extractJson['total_cases']['cummulative']=int(coreData[18])
-        extractJson['total_cases']['new']= get_new(coreData[20])
+        extractJson['total_cases']['cummulative']=extract_int(coreData, r_index, r_index+18)
+        extractJson['total_cases']['new']=extract_int(coreData, r_index, r_index+20, isNew=True)
         extractJson['deaths']= {}
-        extractJson['deaths']['cummulative']=int(coreData[19])
-        extractJson['deaths']['new']= get_new(coreData[21])
-        extractJson['test_per_million']=int(coreData[23])
+        extractJson['deaths']['cummulative']=extract_int(coreData, r_index, r_index+19)
+        extractJson['deaths']['new']=extract_int(coreData, r_index, r_index+21, isNew=True)
+        extractJson['test_per_million']=extract_int(coreData, r_index, r_index+23)
         extractJson['positivity_rate']= (extractJson['total_cases']['new'] / extractJson['tested']['new']) * 100
-        extractJson['active_cases']=int(coreData[25])
+        extractJson['active_cases']=extract_int(coreData, r_index, r_index+25)
         print(extractJson)
         return extractJson
 
@@ -105,6 +120,7 @@ def append_to_file(fileName, content):
         with open(fileName, 'r+') as file:
                 data = json.load(file)
                 data.append(content)
+                file.truncate(0)
                 file.seek(0)
                 json.dump(data, file)
 

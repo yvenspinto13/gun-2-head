@@ -18,7 +18,7 @@ def myconverter(o):
 
 def get_tweets(site):
     tweets = []
-    for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:' + site +' since:2021-04-01 until:2021-05-03').get_items()):
+    for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:' + site +' since:2021-04-01 until:2021-05-12').get_items()):
         tweetObj = {}
         tweetObj['id'] = tweet.id
         tweetObj['date'] = tweet.date.__str__()
@@ -32,10 +32,22 @@ def get_tweets(site):
     return tweets
 
 def save_json(site, tweets_df):
-    with open(folder + site + '.json', 'a') as f:
-        json.dump(tweets_df, f)
+    try:
+        with open(folder + site + '.json', 'r+') as f:
+            f_tweets = json.load(f)
+            f.truncate(0)
+            res_list = [*f_tweets, *tweets_df]
+            # print('\nconcat',res_list)
+            f.seek(0)
+            json.dump(res_list, f)
+    except FileNotFoundError:
+        with open(folder + site + '.json', 'w') as f:
+            json.dump(tweets_df,f)
+    except Exception:
+        print('Exception')
 
 
-for i in ['prudentgoa', 'goanewshub', 'InGoa24x7']:
+
+for i in ['prudentgoa', 'goanewshub', 'InGoa24x7', 'PrimeTVGoa']:
     tweets = get_tweets(i)
     save_json(i,tweets) 

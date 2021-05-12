@@ -1,3 +1,7 @@
+a {
+  color: #282c34;
+}
+
 .App {
   text-align: center;
 }
@@ -53,4 +57,8 @@
 
 .pdtb-20 {
   padding: 20px 0;
+}
+
+.active {
+  color: #007bff;
 }

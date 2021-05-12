@@ -1,33 +1,33 @@
-import { useState, useEffect } from 'react'
-import { CasesVPositive } from '../charts/CasesVPositive'
-import { DeathChart } from '../charts/Death'
-import { PRVRR } from '../charts/PRVRR'
-import { R24VP24 } from '../charts/R24VP24'
-import { getRequest } from '../utils/http'
+import { Container, Nav } from 'react-bootstrap';
+import { BrowserRouter, NavLink, Redirect, Route, Switch } from 'react-router-dom'
+import { Graphs } from '../charts/Graphs';
+import { Timeline } from '../timeline/Timeline';
 
-export const AppWraapper = () => {
-
-    const [data, setData] = useState([])
-    const dataUrl = process.env.REACT_APP_API;
-
-    useEffect(() => {
-        getRequest(dataUrl).then(res => setData(res)).catch(err => console.log(err))
-    }, [dataUrl])
+export const AppWrapper = () => {
 
     return (
-        <div className="pdtb-20">
-            <div>
-                <DeathChart deathData={data} />
-            </div>
-            <div className="pd-40">
-                <CasesVPositive caseData={data} />
-            </div>
-            <div className="pd-40">
-                <PRVRR caseData={data} />
-            </div>
-            <div className="pd-40">
-                <R24VP24 caseData={data} />
-            </div>
-        </div>
+        <BrowserRouter>
+            <Nav className="justify-content-center">
+                <Nav.Item>
+                    <Nav.Link activeClassName="active" eventKey="home" as={NavLink} to="/home">Graph</Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link activeClassName="active" eventKey="timeline" as={NavLink} to="/timeline">Timeline</Nav.Link>
+                </Nav.Item>
+            </Nav>
+            <Container fluid>
+                <Switch>
+                    <Route path="/timeline">
+                        <Timeline />
+                    </Route>
+                    <Route path="/home">
+                        <Graphs />
+                    </Route>
+                    <Route path="/" >
+                        <Redirect to="/home" />
+                    </Route>
+                </Switch>
+            </Container>
+        </BrowserRouter>
     )
 }

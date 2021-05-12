@@ -3065,7 +3065,7 @@
     "positivity_rate": 51.4631551,
     "active_cases": 29752
   },
-   {
+  {
     "institiution": {
       "head": "Integrated Disease Surveillance Programme (IDSP)",
       "sub": "Directorate of Health Services,",
@@ -3121,11 +3121,53 @@
     "recovery_24": 2367,
     "home_isolation": { "cummulative": 75970, "new": 2327 },
     "hospitalized": { "cummulative": 22520, "new": 309 },
-    "tested": { "cummulative": 32262, "new": 6107 },
+    "tested": { "cummulative": 718422, "new": 6107 },
     "total_cases": { "cummulative": 121650, "new": 2804 },
     "deaths": { "cummulative": 1729, "new": 50 },
     "test_per_million": 492561,
     "positivity_rate": 45.91452431635828,
-    "active_cases": 718422
+    "active_cases": 32262
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "09THMAY 2021",
+    "recovery_rate": 71.76,
+    "recovered_patients": 85292,
+    "recovery_24": 3078,
+    "home_isolation": { "cummulative": 73643, "new": 3480 },
+    "hospitalized": { "cummulative": 22211, "new": 271 },
+    "tested": { "cummulative": 712315, "new": 5671 },
+    "total_cases": { "cummulative": 118846, "new": 2633 },
+    "deaths": { "cummulative": 1679, "new": 67 },
+    "test_per_million": 488373,
+    "positivity_rate": 46.42920119908305,
+    "active_cases": 31875
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "11TH MAY 2021",
+    "recovery_rate": 72.24,
+    "recovered_patients": 90134,
+    "recovery_24": 2475,
+    "home_isolation": { "cummulative": 78918, "new": 2948 },
+    "hospitalized": { "cummulative": 22841, "new": 321 },
+    "tested": { "cummulative": 726927, "new": 8505 },
+    "total_cases": { "cummulative": 124774, "new": 3124 },
+    "deaths": { "cummulative": 1804, "new": 75 },
+    "test_per_million": 498392,
+    "positivity_rate": 45.91452431635828,
+    "active_cases": 32836
   }
 ]
