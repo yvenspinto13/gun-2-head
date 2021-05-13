@@ -3074,17 +3074,17 @@
       "email": " gassu.idsp@nic.in"
     },
     "date": "07TH MAY 2021",
-    "recovery_rate": 70.74,
-    "recovered_patients": 82214,
-    "recovery_24": 3025,
-    "home_isolation": { "cummulative": 70163, "new": 3887 },
-    "hospitalized": { "cummulative": 21940, "new": 310 },
-    "tested": { "cummulative": 706644, "new": 8115 },
-    "total_cases": { "cummulative": 116213, "new": 3751 },
-    "deaths": { "cummulative": 1612, "new": 55 },
-    "test_per_million": 484486,
-    "positivity_rate": 46.22304374614911,
-    "active_cases": 32387
+    "recovery_rate": 70.41,
+    "recovered_patients": 79189,
+    "recovery_24": 2175,
+    "home_isolation": { "cummulative": 66276, "new": 3606 },
+    "hospitalized": { "cummulative": 21630, "new": 296 },
+    "tested": { "cummulative": 698529, "new": 8170 },
+    "total_cases": { "cummulative": 112462, "new": 4195 },
+    "deaths": { "cummulative": 1557, "new": 56 },
+    "test_per_million": 478922,
+    "positivity_rate": 51.3463892,
+    "active_cases": 31716
   },
   {
     "institiution": {
@@ -3095,17 +3095,17 @@
       "email": " gassu.idsp@nic.in"
     },
     "date": "08TH MAY 2021",
-    "recovery_rate": 71.76,
-    "recovered_patients": 85292,
-    "recovery_24": 3078,
-    "home_isolation": { "cummulative": 73643, "new": 3480 },
-    "hospitalized": { "cummulative": 22211, "new": 271 },
-    "tested": { "cummulative": 712315, "new": 5671 },
-    "total_cases": { "cummulative": 118846, "new": 2633 },
-    "deaths": { "cummulative": 1679, "new": 67 },
-    "test_per_million": 488373,
-    "positivity_rate": 46.4292012,
-    "active_cases": 31875
+    "recovery_rate": 70.74,
+    "recovered_patients": 82214,
+    "recovery_24": 3025,
+    "home_isolation": { "cummulative": 70163, "new": 3887 },
+    "hospitalized": { "cummulative": 21940, "new": 310 },
+    "tested": { "cummulative": 706644, "new": 8115 },
+    "total_cases": { "cummulative": 116213, "new": 3751 },
+    "deaths": { "cummulative": 1612, "new": 55 },
+    "test_per_million": 484486,
+    "positivity_rate": 46.2230437,
+    "active_cases": 32387
   },
   {
     "institiution": {
