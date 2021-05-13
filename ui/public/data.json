@@ -857,7 +857,7 @@
     "total_cases": { "cummulative": 127639, "new": 2865 },
     "deaths": { "cummulative": 1874, "new": 70 },
     "test_per_million": 503136,
-    "positivity_rate": 28.439072278807213,
+    "positivity_rate": 41.4017341,
     "active_cases": 32791
   }
 ]
