@@ -1,6 +1,7 @@
 import { Container, Nav } from 'react-bootstrap';
 import { BrowserRouter, NavLink, Redirect, Route, Switch } from 'react-router-dom'
 import { Graphs } from '../charts/Graphs';
+import { Footer } from '../footer/Footer';
 import { Timeline } from '../timeline/Timeline';
 
 export const AppWrapper = () => {
@@ -27,6 +28,7 @@ export const AppWrapper = () => {
                         <Redirect to="/home" />
                     </Route>
                 </Switch>
+                <Footer />
             </Container>
         </BrowserRouter>
     )

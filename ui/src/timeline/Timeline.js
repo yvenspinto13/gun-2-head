@@ -116,8 +116,8 @@ export const Timeline = () => {
         <>
             <div className="form-in">
                 <Row>
-                    <Col />
-                    <Col>
+                    <Col md={2} />
+                    <Col xs={12} md={4} className="padt-5">
                         <InputGroup className="mb-6">
                             <FormLabel style={{ margin: 'auto 5px' }}>Enter Date</FormLabel>
                             <FormControl
@@ -128,7 +128,7 @@ export const Timeline = () => {
                         </Button>
                         </InputGroup>
                     </Col>
-                    <Col>
+                    <Col xs={12} md={4} className="padt-5">
                         <InputGroup className="mb-3">
                             <FormControl
                                 placeholder="Search tweets"
@@ -137,7 +137,7 @@ export const Timeline = () => {
                             />
                         </InputGroup>
                     </Col>
-                    <Col />
+                    <Col md={2} />
                 </Row>
             </div>
             {isLoading && <Spinner animation="border" variant="secondary" />}
