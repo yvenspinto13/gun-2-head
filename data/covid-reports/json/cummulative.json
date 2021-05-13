@@ -3169,5 +3169,26 @@
     "test_per_million": 498392,
     "positivity_rate": 45.91452431635828,
     "active_cases": 32836
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "12th MAY 2021",
+    "recovery_rate": 72.84,
+    "recovered_patients": 92974,
+    "recovery_24": 2840,
+    "home_isolation": { "cummulative": 81490, "new": 2572 },
+    "hospitalized": { "cummulative": 23175, "new": 334 },
+    "tested": { "cummulative": 733847, "new": 6920 },
+    "total_cases": { "cummulative": 127639, "new": 2865 },
+    "deaths": { "cummulative": 1874, "new": 70 },
+    "test_per_million": 503136,
+    "positivity_rate": 28.439072278807213,
+    "active_cases": 32791
   }
 ]

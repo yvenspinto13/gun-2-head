@@ -9,7 +9,8 @@ def get_links():
     links = []
     page = requests.get(currentLink)
     soup = BeautifulSoup(page.content, 'html.parser')
-    for item in soup.select("a[href*='Media-B']"):
+    # Media-B
+    for item in soup.select("a[href*='MediaB']"):
         # print(item['href'])
         links.append(item['href'])
     return links

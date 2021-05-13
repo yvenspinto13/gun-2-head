@@ -17,10 +17,21 @@ folder = './covid-reports/'
 def get_new(nn):
         return nn.split('(')[0]
 
+def get_percent(nn):
+        return nn.split('%')[0]
+
 def get_file_list(fl):
         l = glob.glob(fl + '*.pdf')
         l = [f.split('/')[2].split('.')[0] for f in l]
         return l
+
+def extract_float(data,r_index,index, isPercent = False):
+        try:
+                val = float(get_percent(data[index]) if isPercent else data[index])
+                return val
+        except ValueError:
+                r_index += 1
+                return extract_float(data,r_index,index+1)
 
 def extract_int(data,r_index,index, isNew = False):
         try:
@@ -43,7 +54,7 @@ def get_extracted_json(lines):
         coreData = lines[10:]
         r_index = 0
         print(coreData)
-        extractJson['recovery_rate']=float(coreData[0].split('%')[0])
+        extractJson['recovery_rate']=extract_float(coreData, r_index, r_index+1, isPercent=True)
         extractJson['recovered_patients']= extract_int(coreData, r_index, r_index+1)
         extractJson['recovery_24']= extract_int(coreData, r_index, r_index+2)
         extractJson['home_isolation']= {}
@@ -69,7 +80,11 @@ def get_extracted_json(lines):
 
 
 def get_json_name(fileName):
-        return str(datetime.strptime(pattern.sub('', fileName.split('Media-Bulletin-')[1]),'%d-%B-%Y').date())
+        try:
+                return str(datetime.strptime(pattern.sub('', fileName.split('Media-Bulletin-')[1]),'%d-%B-%Y').date())
+        except Exception:
+                return str(datetime.strptime(pattern.sub('', fileName.split('MediaBulletin-')[1]),'%d%B%Y').date())
+        
 
 def process_file(fileN):
         fileName =  folder +  fileN

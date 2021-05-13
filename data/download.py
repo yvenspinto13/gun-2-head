@@ -6,6 +6,7 @@ def gen_filename(url: str,index: str, exten = None):
     filename = index + '_' + filename
     if exten != None:
         filename = filename.split(exten)[0].rstrip('-') + exten
+    return filename
 
 def download(url: str, dest_folder: str, index: str, exten = None):
     if not os.path.exists(dest_folder):

@@ -27,6 +27,6 @@ def download_interactive():
     fileN = download_link(link, '.pdf')
     extract_and_append_file(fileN.split('.pdf')[0])
 
-# download_interactive()
-fileN = input('\n Enter the file to extract:')
-extract_and_append_file(fileN.split('.pdf')[0])
+download_interactive()
+# fileN = input('\n Enter the file to extract:')
+# extract_and_append_file(fileN.split('.pdf')[0])
