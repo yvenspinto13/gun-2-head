@@ -18,7 +18,7 @@
 }
 
 .col-head {
-  width: 10%;
+  width: 135px;
 }
 
 .col-max {
@@ -60,7 +60,7 @@
 .col-content {
   display: flex;
   overflow: auto;
-  width: 90%;
+  width: calc(100% - 135px);;
 }
 
 .close-bt {
