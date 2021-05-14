@@ -51,27 +51,27 @@ def get_extracted_json(lines):
         extractJson['institiution']['telephone'] = lines[3].split(' ')[1]
         extractJson['institiution']['email'] = lines[4].split(':')[1]
         extractJson['date'] = lines[5]
-        coreData = lines[10:]
+        coreData = lines[11:]
         r_index = 0
         print(coreData)
-        extractJson['recovery_rate']=extract_float(coreData, r_index, r_index+1, isPercent=True)
+        extractJson['recovery_rate']=extract_float(coreData, r_index, r_index, isPercent=True)
         extractJson['recovered_patients']= extract_int(coreData, r_index, r_index+1)
-        extractJson['recovery_24']= extract_int(coreData, r_index, r_index+2)
+        extractJson['recovery_24']= extract_int(coreData, r_index, r_index+18)
         extractJson['home_isolation']= {}
-        extractJson['home_isolation']['cummulative']= extract_int(coreData, r_index, r_index+9)
-        extractJson['home_isolation']['new']= extract_int(coreData, r_index, r_index+11, isNew=True)
+        extractJson['home_isolation']['cummulative']= extract_int(coreData, r_index, r_index+17)
+        extractJson['home_isolation']['new']= extract_int(coreData, r_index, r_index+8, isNew=True)
         extractJson['hospitalized']= {}
-        extractJson['hospitalized']['cummulative']=extract_int(coreData, r_index, r_index+10)
-        extractJson['hospitalized']['new']=extract_int(coreData, r_index, r_index+12, isNew=True)
+        extractJson['hospitalized']['cummulative']=extract_int(coreData, r_index, r_index+19)
+        extractJson['hospitalized']['new']=extract_int(coreData, r_index, r_index+9, isNew=True)
         extractJson['tested']= {}
-        extractJson['tested']['cummulative']=extract_int(coreData, r_index, r_index+27)
-        extractJson['tested']['new']= extract_int(coreData, r_index, r_index+13, isNew=True)
+        extractJson['tested']['cummulative']=extract_int(coreData, r_index, r_index+21)
+        extractJson['tested']['new']= extract_int(coreData, r_index, r_index+10, isNew=True)
         extractJson['total_cases']= {}
-        extractJson['total_cases']['cummulative']=extract_int(coreData, r_index, r_index+18)
-        extractJson['total_cases']['new']=extract_int(coreData, r_index, r_index+20, isNew=True)
+        extractJson['total_cases']['cummulative']=extract_int(coreData, r_index, r_index+22)
+        extractJson['total_cases']['new']=extract_int(coreData, r_index, r_index+15, isNew=True)
         extractJson['deaths']= {}
-        extractJson['deaths']['cummulative']=extract_int(coreData, r_index, r_index+19)
-        extractJson['deaths']['new']=extract_int(coreData, r_index, r_index+21, isNew=True)
+        extractJson['deaths']['cummulative']=extract_int(coreData, r_index, r_index+27)
+        extractJson['deaths']['new']=extract_int(coreData, r_index, r_index+16, isNew=True)
         extractJson['test_per_million']=extract_int(coreData, r_index, r_index+23)
         extractJson['positivity_rate']= (extractJson['total_cases']['new'] / extractJson['tested']['new']) * 100
         extractJson['active_cases']=extract_int(coreData, r_index, r_index+25)
@@ -83,7 +83,7 @@ def get_json_name(fileName):
         try:
                 return str(datetime.strptime(pattern.sub('', fileName.split('Media-Bulletin-')[1]),'%d-%B-%Y').date())
         except Exception:
-                return str(datetime.strptime(pattern.sub('', fileName.split('MediaBulletin-')[1]),'%d%B%Y').date())
+                return str(datetime.strptime(pattern.sub('', fileName.split('MediaBulletin_')[1]),'%d%B%Y').date())
         
 
 def process_file(fileN):

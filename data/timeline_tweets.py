@@ -18,7 +18,7 @@ def myconverter(o):
 
 def get_tweets(site):
     tweets = []
-    for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:' + site +' since:2021-04-01 until:2021-05-12').get_items()):
+    for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:' + site +' since:2021-05-12 until:2021-05-14').get_items()):
         tweetObj = {}
         tweetObj['id'] = tweet.id
         tweetObj['date'] = tweet.date.__str__()
