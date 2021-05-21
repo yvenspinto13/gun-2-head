@@ -8,7 +8,7 @@ pattern = re.compile('(st|nd|rd|th|,)')
 raw = '/raw/'
 js = 'json/'
 ext = '.pdf'
-folder = './covid-reports/'
+folder = '../data/covid-reports/'
 
 
 # REALLLY NEED TO MAKE THIS SCRIPT REACTIVE ..................... 

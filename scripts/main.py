@@ -4,7 +4,7 @@ from download import gen_filename
 
 
 def download_extract_all():
-    existingFiles = get_file_list('./covid-reports/')
+    existingFiles = get_file_list('../data/covid-reports/')
     builtDictionary = {}
     for val in existingFiles:
         builtDictionary[val]=True

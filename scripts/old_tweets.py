@@ -3,7 +3,7 @@ import pandas as pd
 from datetime import datetime
 from download import download
 
-folder = './archives/'
+folder = '../data/archives/'
 # site = 'prudentgoa'
 # site = 'goanewshub'
 site = 'InGoa24x7'

@@ -16,8 +16,8 @@ def get_links():
     return links
 
 def download_link(link, exten= None):
-    return download(link, './covid-reports', '', exten)
+    return download(link, '../data/covid-reports', '', exten)
 
 def download_links(links, exten = None):
     for i in links:
-        download(i, './covid-reports', '', exten)
+        download(i, '../data/covid-reports', '', exten)

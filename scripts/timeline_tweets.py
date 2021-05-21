@@ -1,7 +1,7 @@
 import snscrape.modules.twitter as sntwitter
 import json
 
-folder = './timeline-tweets/'
+folder = '../data/timeline-tweets-json/'
 
 def get_media(med):
     obj = {}
