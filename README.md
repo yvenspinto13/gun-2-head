@@ -2,7 +2,7 @@
 
 Just an accountability repo to know the gross misconduct of the government of goa
 
-[You can view the UI here](https://gun2-head.herokuapp.com/)
+[Check it out here](https://goa-covid-accountability.web.app/home)
 
 This is a work in progress, but I hope to complete it
 
