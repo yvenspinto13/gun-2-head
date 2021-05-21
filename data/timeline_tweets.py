@@ -47,7 +47,9 @@ def save_json(site, tweets_df):
         print('Exception')
 
 
+def save_tweets():
+    for i in ['prudentgoa', 'goanewshub', 'InGoa24x7', 'PrimeTVGoa']:
+        tweets = get_tweets(i)
+        save_json(i,tweets) 
 
-for i in ['prudentgoa', 'goanewshub', 'InGoa24x7', 'PrimeTVGoa']:
-    tweets = get_tweets(i)
-    save_json(i,tweets) 
+# save_tweets()
