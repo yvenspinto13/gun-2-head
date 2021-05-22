@@ -1,4 +1,5 @@
 from timeline_tweets import get_tweets
+from analyze import get_summary
 from datetime import datetime
 import flask
 from flask import request, jsonify
@@ -18,12 +19,12 @@ def is_valid_date(dateStr):
 
 @app.route('/', methods=['GET'])
 def home():
-    return '''<h1>Gun2Head python API</h1>'''
+    return '''<h1>Gun2Head python API</h1><h2><a href="https://goa-covid-accountability.web.app">UI Link</a></h2>'''
 
 
 # A route to return all of the available entries in our catalog.
 @app.route('/api/v1/tweets', methods=['GET'])
-@cross_origin()
+# @cross_origin()
 def tweet_timeline():
     if 'site' in request.args:
         site = request.args['site']
@@ -45,6 +46,17 @@ def tweet_timeline():
         dataObj['feed'] = get_tweets(i,since=fromDate.strftime('%Y-%m-%d'), until=to.strftime('%Y-%m-%d'))
         tweetList.append(dataObj)
     return jsonify(tweetList)
-    
+
+@app.route('/api/v1/tweets/summary', methods=['POST'])
+def generate_summary():
+    request_data = request.get_json()
+    tweet_data = request_data['tweetData']
+    if tweet_data is None:
+        return 'Invalid data'
+    else:
+        summary = {}
+        summary['text'] = get_summary(tweet_data)
+        return jsonify(summary)
+
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
