@@ -23,7 +23,7 @@ requests==2.25.1
 sacremoses==0.0.45
 sentencepiece==0.1.95
 six==1.16.0
-snscrape==0.3.5.dev104+g97c8cae
+snscrape @ git+https://github.com/JustAnotherArchivist/snscrape.git@97c8caea48b1d79f776f8a2aabcadab34d633b5c
 soupsieve==2.2.1
 tokenizers==0.10.2
 torch==1.8.1+cpu
