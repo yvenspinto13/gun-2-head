@@ -1,5 +1,4 @@
 from timeline_tweets import get_tweets
-from analyze import get_summary
 from datetime import datetime
 import flask
 from flask import request, jsonify
@@ -46,17 +45,6 @@ def tweet_timeline():
         dataObj['feed'] = get_tweets(i,since=fromDate.strftime('%Y-%m-%d'), until=to.strftime('%Y-%m-%d'))
         tweetList.append(dataObj)
     return jsonify(tweetList)
-
-@app.route('/api/v1/tweets/summary', methods=['POST'])
-def generate_summary():
-    request_data = request.get_json()
-    tweet_data = request_data['tweetData']
-    if tweet_data is None:
-        return 'Invalid data'
-    else:
-        summary = {}
-        summary['text'] = get_summary(tweet_data)
-        return jsonify(summary)
 
 if __name__ == '__main__':
     app.run(threaded=True, port=5000)
