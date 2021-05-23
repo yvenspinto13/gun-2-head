@@ -25,8 +25,8 @@ def get_summary(tweet_data):
 
 app = flask.Flask(__name__)
 # app.config["DEBUG"] = True
-# cors = CORS(app)
-# app.config['CORS_HEADERS'] = 'Content-Type'
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/', methods=['GET'])
 def home():
