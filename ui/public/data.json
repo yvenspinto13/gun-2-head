@@ -1006,5 +1006,50 @@
     "test_per_million": 527364,
     "positivity_rate": 31.2161115,
     "active_cases": 22964
+  },
+  {
+    "institiution": {},
+    "date": "2021-05-19T18:30:00.000Z",
+    "recovery_rate": 83.7,
+    "recovered_patients": 118487,
+    "recovery_24": 3694,
+    "home_isolation": { "cummulative": 93172, "new": 1381 },
+    "hospitalized": { "cummulative": 24904, "new": 201 },
+    "tested": { "cummulative": 773765, "new": 4581 },
+    "total_cases": { "cummulative": 141567, "new": 1582 },
+    "deaths": { "cummulative": 2272, "new": 44 },
+    "test_per_million": 530505,
+    "positivity_rate": 34.53394455359092,
+    "active_cases": 20808
+  },
+  {
+    "institiution": {},
+    "date": "2021-05-20T18:30:00.000Z",
+    "recovery_rate": 84.89,
+    "recovered_patients": 121562,
+    "recovery_24": 3075,
+    "home_isolation": { "cummulative": 94610, "new": 1438 },
+    "hospitalized": { "cummulative": 25111, "new": 207 },
+    "tested": { "cummulative": 778828, "new": 5063 },
+    "total_cases": { "cummulative": 143192, "new": 1625 },
+    "deaths": { "cummulative": 2302, "new": 30 },
+    "test_per_million": 533976,
+    "positivity_rate": 32.09559549674106,
+    "active_cases": 19328
+  },
+  {
+    "institiution": {},
+    "date": "2021-05-21T18:30:00.000Z",
+    "recovery_rate": 85.79,
+    "recovered_patients": 124255,
+    "recovery_24": 2693,
+    "home_isolation": { "cummulative": 96061, "new": 1451 },
+    "hospitalized": { "cummulative": 25307, "new": 196 },
+    "tested": { "cummulative": 783409, "new": 4581 },
+    "total_cases": { "cummulative": 144839, "new": 1647 },
+    "deaths": { "cummulative": 2341, "new": 39 },
+    "test_per_million": 537117,
+    "positivity_rate": 35.952848722986246,
+    "active_cases": 18243
   }
 ]

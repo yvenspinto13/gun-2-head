@@ -34,6 +34,7 @@ def home():
 
 
 @app.route('/api/v1/tweets/summary', methods=['POST'])
+@cross_origin()
 def generate_summary():
     request_data = request.get_json()
     tweet_data = request_data['tweetData']
