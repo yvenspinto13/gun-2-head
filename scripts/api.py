@@ -6,8 +6,8 @@ from flask_cors import CORS, cross_origin
 
 app = flask.Flask(__name__)
 # app.config["DEBUG"] = True
-# cors = CORS(app)
-# app.config['CORS_HEADERS'] = 'Content-Type'
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 def is_valid_date(dateStr):
     try:
