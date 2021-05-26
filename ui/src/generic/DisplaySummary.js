@@ -3,6 +3,14 @@ import { Cummulative } from "./Cummulative";
 import { DateDisplay } from "./DateDisplay";
 import { Percentage } from "./Percentage";
 
+const SnapChild = ({ r, data }) => (
+  <>
+    {r.header}:&nbsp;
+    {data && data[r.key] && <r.Component key={r.key} data={data[r.key]} />}
+    <br />
+  </>
+);
+
 const SnapDisplay = ({ data, show }) => {
   const rows = [
     { header: "Tested", key: "tested", Component: Cummulative },
@@ -24,13 +32,7 @@ const SnapDisplay = ({ data, show }) => {
       {show && data && (
         <p>
           {rows.map((r) => (
-            <>
-              {r.header}:&nbsp;
-              {data && data[r.key] && (
-                <r.Component key={r.key} data={data[r.key]} />
-              )}
-              <br />
-            </>
+            <SnapChild key={r.key} r={r} data={data} />
           ))}
         </p>
       )}

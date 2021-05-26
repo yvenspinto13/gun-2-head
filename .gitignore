@@ -160,3 +160,10 @@ Thumbs.db
 *.rar
 *.tar
 .DS_Store
+
+# other stuff
+requirements.txt
+scripts/build/
+ui/.firebase/
+ui/.firebaserc
+ui/firebase.json

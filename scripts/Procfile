@@ -1,1 +1,1 @@
-web: gunicorn analyze:app --preload -b "0.0.0.0:$PORT"
+web: gunicorn analyze_api:app --preload -b "0.0.0.0:$PORT"

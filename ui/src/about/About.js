@@ -1,5 +1,4 @@
-import { Footer } from '../footer/Footer'
-
+import { Footer } from "../footer/Footer";
 
 const Atag = ({ link, text }) => (
   <a style={{ color: "#007bff" }} href={link}>
@@ -49,6 +48,14 @@ export const About = () => (
       memorial, the numbers are not just numbers, they are human beings, that
       could have been saved, and this, this will not be forgotten.
     </p>
-    <Footer />
+    <p>
+      Please note, the data is collected from https://www.goa.gov.in/covid-19/
+    </p>
+    <p>
+      Data was extracted using a python script. As the bulk of the data could
+      not be verified via manually, random sample tests were carried out. There
+      is ongoing effort to manually check the data. If there is any issue with
+      the data, please drop a mail at yvenspinto13@gmail.com. Thank you!
+    </p>
   </>
 );

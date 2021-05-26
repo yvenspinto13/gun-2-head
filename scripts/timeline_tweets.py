@@ -16,7 +16,7 @@ def myconverter(o):
     if isinstance(o, datetime.datetime):
         return o.__str__()
 
-def get_tweets(site, since = '2021-05-13', until = '2021-05-19'):
+def get_tweets(site, since = '2021-05-10', until = '2021-05-25'):
     tweets = []
     for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:' + site +' since:'+since+' until:'+until).get_items()):
         tweetObj = {}
@@ -39,12 +39,22 @@ def save_json(site, tweets_df):
             res_list = [*f_tweets, *tweets_df]
             # print('\nconcat',res_list)
             f.seek(0)
-            json.dump(res_list, f)
+            u_tweets = unique_list(res_list)
+            json.dump(u_tweets, f)
     except FileNotFoundError:
         with open(folder + site + '.json', 'w') as f:
             json.dump(tweets_df,f)
     except Exception:
         print('Exception')
+
+def unique_list(l):
+    seen = set()
+    new_l = []
+    for d in l:
+        if d['id'] not in seen:
+            seen.add(d['id'])
+            new_l.append(d)
+    return new_l
 
 
 def save_tweets():
