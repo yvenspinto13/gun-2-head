@@ -9,7 +9,7 @@ cors = CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 
 # Authenticate with your API key
-apiKey = os.environ('ALGO_KEY')
+apiKey = os.environ['ALGO_KEY']
 
 # Create the Algorithmia client object
 client = Algorithmia.client(apiKey)
