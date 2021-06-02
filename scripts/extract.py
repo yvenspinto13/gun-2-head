@@ -46,13 +46,13 @@ def get_extracted_json(lines):
         print('lines',lines)
         extractJson = {}
         extractJson['institiution'] = {}
-        # extractJson['institiution']['head'] = lines[0]
-        # extractJson['institiution']['sub'] = lines[1]
-        # extractJson['institiution']['address'] = lines[2]
-        # extractJson['institiution']['telephone'] = lines[3].split(' ')[1]
-        # extractJson['institiution']['email'] = lines[4].split(':')[1]
-        extractJson['date'] = lines[0]
-        coreData = lines[6:]
+        extractJson['institiution']['head'] = lines[0]
+        extractJson['institiution']['sub'] = lines[1]
+        extractJson['institiution']['address'] = lines[2]
+        extractJson['institiution']['telephone'] = lines[3].split(' ')[1]
+        extractJson['institiution']['email'] = lines[4].split(':')[1]
+        extractJson['date'] = lines[5]
+        coreData = lines[11:]
         r_index = 0
         print(coreData)
         extractJson['recovery_rate']=extract_float(coreData, r_index, r_index, isPercent=True)
