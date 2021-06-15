@@ -16,7 +16,7 @@ def myconverter(o):
     if isinstance(o, datetime.datetime):
         return o.__str__()
 
-def get_tweets(site, since = '2021-05-29', until = '2021-06-02'):
+def get_tweets(site, since = '2021-06-06', until = '2021-06-16'):
     tweets = []
     for i,tweet in enumerate(sntwitter.TwitterSearchScraper('from:' + site +' since:'+since+' until:'+until).get_items()):
         tweetObj = {}
