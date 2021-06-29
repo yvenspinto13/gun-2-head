@@ -11,11 +11,26 @@
     "recovery_rate": 95.63,
     "recovered_patients": 55757,
     "recovery_24": 104,
-    "home_isolation": { "cummulative": 31370, "new": 58 },
-    "hospitalized": { "cummulative": 16492, "new": 24 },
-    "tested": { "cummulative": 547263, "new": 2611 },
-    "total_cases": { "cummulative": 58304, "new": 265 },
-    "deaths": { "cummulative": 831, "new": 1 },
+    "home_isolation": {
+      "cummulative": 31370,
+      "new": 58
+    },
+    "hospitalized": {
+      "cummulative": 16492,
+      "new": 24
+    },
+    "tested": {
+      "cummulative": 547263,
+      "new": 2611
+    },
+    "total_cases": {
+      "cummulative": 58304,
+      "new": 265
+    },
+    "deaths": {
+      "cummulative": 831,
+      "new": 1
+    },
     "test_per_million": 375211,
     "positivity_rate": 10.149368058215243,
     "active_cases": 1716
@@ -32,11 +47,26 @@
     "recovery_rate": 95.31,
     "recovered_patients": 55838,
     "recovery_24": 81,
-    "home_isolation": { "cummulative": 31518, "new": 148 },
-    "hospitalized": { "cummulative": 16531, "new": 39 },
-    "tested": { "cummulative": 549292, "new": 2029 },
-    "total_cases": { "cummulative": 58584, "new": 280 },
-    "deaths": { "cummulative": 832, "new": 1 },
+    "home_isolation": {
+      "cummulative": 31518,
+      "new": 148
+    },
+    "hospitalized": {
+      "cummulative": 16531,
+      "new": 39
+    },
+    "tested": {
+      "cummulative": 549292,
+      "new": 2029
+    },
+    "total_cases": {
+      "cummulative": 58584,
+      "new": 280
+    },
+    "deaths": {
+      "cummulative": 832,
+      "new": 1
+    },
     "test_per_million": 376602,
     "positivity_rate": 13.799901429275504,
     "active_cases": 1914
@@ -53,11 +83,26 @@
     "recovery_rate": 95.21,
     "recovered_patients": 55989,
     "recovery_24": 151,
-    "home_isolation": { "cummulative": 31620, "new": 102 },
-    "hospitalized": { "cummulative": 16558, "new": 27 },
-    "tested": { "cummulative": 551354, "new": 2062 },
-    "total_cases": { "cummulative": 58803, "new": 219 },
-    "deaths": { "cummulative": 834, "new": 2 },
+    "home_isolation": {
+      "cummulative": 31620,
+      "new": 102
+    },
+    "hospitalized": {
+      "cummulative": 16558,
+      "new": 27
+    },
+    "tested": {
+      "cummulative": 551354,
+      "new": 2062
+    },
+    "total_cases": {
+      "cummulative": 58803,
+      "new": 219
+    },
+    "deaths": {
+      "cummulative": 834,
+      "new": 2
+    },
     "test_per_million": 378016,
     "positivity_rate": 10.620756547041706,
     "active_cases": 1980
@@ -74,11 +119,26 @@
     "recovery_rate": 95.07,
     "recovered_patients": 56156,
     "recovery_24": 167,
-    "home_isolation": { "cummulative": 31728, "new": 108 },
-    "hospitalized": { "cummulative": 16598, "new": 40 },
-    "tested": { "cummulative": 553411, "new": 2057 },
-    "total_cases": { "cummulative": 59068, "new": 265 },
-    "deaths": { "cummulative": 835, "new": 1 },
+    "home_isolation": {
+      "cummulative": 31728,
+      "new": 108
+    },
+    "hospitalized": {
+      "cummulative": 16598,
+      "new": 40
+    },
+    "tested": {
+      "cummulative": 553411,
+      "new": 2057
+    },
+    "total_cases": {
+      "cummulative": 59068,
+      "new": 265
+    },
+    "deaths": {
+      "cummulative": 835,
+      "new": 1
+    },
     "test_per_million": 379426,
     "positivity_rate": 12.882839086047642,
     "active_cases": 2077
@@ -95,11 +155,26 @@
     "recovery_rate": 94.91,
     "recovered_patients": 56298,
     "recovery_24": 142,
-    "home_isolation": { "cummulative": 31866, "new": 138 },
-    "hospitalized": { "cummulative": 16630, "new": 32 },
-    "tested": { "cummulative": 555457, "new": 2046 },
-    "total_cases": { "cummulative": 59315, "new": 247 },
-    "deaths": { "cummulative": 837, "new": 2 },
+    "home_isolation": {
+      "cummulative": 31866,
+      "new": 138
+    },
+    "hospitalized": {
+      "cummulative": 16630,
+      "new": 32
+    },
+    "tested": {
+      "cummulative": 555457,
+      "new": 2046
+    },
+    "total_cases": {
+      "cummulative": 59315,
+      "new": 247
+    },
+    "deaths": {
+      "cummulative": 837,
+      "new": 2
+    },
     "test_per_million": 380829,
     "positivity_rate": 12.072336265884653,
     "active_cases": 2180
@@ -116,11 +191,26 @@
     "recovery_rate": 94.46,
     "recovered_patients": 56393,
     "recovery_24": 95,
-    "home_isolation": { "cummulative": 32041, "new": 175 },
-    "hospitalized": { "cummulative": 16700, "new": 70 },
-    "tested": { "cummulative": 558266, "new": 2809 },
-    "total_cases": { "cummulative": 59702, "new": 387 },
-    "deaths": { "cummulative": 838, "new": 1 },
+    "home_isolation": {
+      "cummulative": 32041,
+      "new": 175
+    },
+    "hospitalized": {
+      "cummulative": 16700,
+      "new": 70
+    },
+    "tested": {
+      "cummulative": 558266,
+      "new": 2809
+    },
+    "total_cases": {
+      "cummulative": 59702,
+      "new": 387
+    },
+    "deaths": {
+      "cummulative": 838,
+      "new": 1
+    },
     "test_per_million": 382755,
     "positivity_rate": 13.777144891420434,
     "active_cases": 2471
@@ -137,11 +227,26 @@
     "recovery_rate": 93.86,
     "recovered_patients": 56531,
     "recovery_24": 138,
-    "home_isolation": { "cummulative": 32332, "new": 291 },
-    "hospitalized": { "cummulative": 16751, "new": 51 },
-    "tested": { "cummulative": 560905, "new": 2639 },
-    "total_cases": { "cummulative": 60229, "new": 527 },
-    "deaths": { "cummulative": 840, "new": 2 },
+    "home_isolation": {
+      "cummulative": 32332,
+      "new": 291
+    },
+    "hospitalized": {
+      "cummulative": 16751,
+      "new": 51
+    },
+    "tested": {
+      "cummulative": 560905,
+      "new": 2639
+    },
+    "total_cases": {
+      "cummulative": 60229,
+      "new": 527
+    },
+    "deaths": {
+      "cummulative": 840,
+      "new": 2
+    },
     "test_per_million": 400850,
     "positivity_rate": 19.969685486926867,
     "active_cases": 2858
@@ -158,11 +263,26 @@
     "recovery_rate": 93.14,
     "recovered_patients": 56638,
     "recovery_24": 107,
-    "home_isolation": { "cummulative": 32618, "new": 286 },
-    "hospitalized": { "cummulative": 16788, "new": 37 },
-    "tested": { "cummulative": 564111, "new": 3206 },
-    "total_cases": { "cummulative": 60811, "new": 582 },
-    "deaths": { "cummulative": 842, "new": 2 },
+    "home_isolation": {
+      "cummulative": 32618,
+      "new": 286
+    },
+    "hospitalized": {
+      "cummulative": 16788,
+      "new": 37
+    },
+    "tested": {
+      "cummulative": 564111,
+      "new": 3206
+    },
+    "total_cases": {
+      "cummulative": 60811,
+      "new": 582
+    },
+    "deaths": {
+      "cummulative": 842,
+      "new": 2
+    },
     "test_per_million": 386763,
     "positivity_rate": 18.15346225826575,
     "active_cases": 3331
@@ -179,11 +299,26 @@
     "recovery_rate": 92.74,
     "recovered_patients": 56797,
     "recovery_24": 159,
-    "home_isolation": { "cummulative": 32888, "new": 270 },
-    "hospitalized": { "cummulative": 16846, "new": 58 },
-    "tested": { "cummulative": 566872, "new": 2761 },
-    "total_cases": { "cummulative": 61239, "new": 428 },
-    "deaths": { "cummulative": 845, "new": 3 },
+    "home_isolation": {
+      "cummulative": 32888,
+      "new": 270
+    },
+    "hospitalized": {
+      "cummulative": 16846,
+      "new": 58
+    },
+    "tested": {
+      "cummulative": 566872,
+      "new": 2761
+    },
+    "total_cases": {
+      "cummulative": 61239,
+      "new": 428
+    },
+    "deaths": {
+      "cummulative": 845,
+      "new": 3
+    },
     "test_per_million": 388655,
     "positivity_rate": 15.501629844259327,
     "active_cases": 3597
@@ -200,11 +335,26 @@
     "recovery_rate": 92.21,
     "recovered_patients": 56964,
     "recovery_24": 167,
-    "home_isolation": { "cummulative": 33125, "new": 237 },
-    "hospitalized": { "cummulative": 16912, "new": 66 },
-    "tested": { "cummulative": 569832, "new": 2960 },
-    "total_cases": { "cummulative": 61779, "new": 540 },
-    "deaths": { "cummulative": 846, "new": 1 },
+    "home_isolation": {
+      "cummulative": 33125,
+      "new": 237
+    },
+    "hospitalized": {
+      "cummulative": 16912,
+      "new": 66
+    },
+    "tested": {
+      "cummulative": 569832,
+      "new": 2960
+    },
+    "total_cases": {
+      "cummulative": 61779,
+      "new": 540
+    },
+    "deaths": {
+      "cummulative": 846,
+      "new": 1
+    },
     "test_per_million": 390685,
     "positivity_rate": 18.243243243243242,
     "active_cases": 3969
@@ -221,11 +371,26 @@
     "recovery_rate": 91.7,
     "recovered_patients": 57134,
     "recovery_24": 170,
-    "home_isolation": { "cummulative": 33341, "new": 216 },
-    "hospitalized": { "cummulative": 16969, "new": 57 },
-    "tested": { "cummulative": 572337, "new": 2505 },
-    "total_cases": { "cummulative": 62304, "new": 525 },
-    "deaths": { "cummulative": 848, "new": 2 },
+    "home_isolation": {
+      "cummulative": 33341,
+      "new": 216
+    },
+    "hospitalized": {
+      "cummulative": 16969,
+      "new": 57
+    },
+    "tested": {
+      "cummulative": 572337,
+      "new": 2505
+    },
+    "total_cases": {
+      "cummulative": 62304,
+      "new": 525
+    },
+    "deaths": {
+      "cummulative": 848,
+      "new": 2
+    },
     "test_per_million": 392402,
     "positivity_rate": 20.958083832335326,
     "active_cases": 4322
@@ -242,11 +407,26 @@
     "recovery_rate": 91.38,
     "recovered_patients": 57365,
     "recovery_24": 231,
-    "home_isolation": { "cummulative": 33587, "new": 246 },
-    "hospitalized": { "cummulative": 17037, "new": 68 },
-    "tested": { "cummulative": 574617, "new": 2280 },
-    "total_cases": { "cummulative": 62780, "new": 476 },
-    "deaths": { "cummulative": 850, "new": 2 },
+    "home_isolation": {
+      "cummulative": 33587,
+      "new": 246
+    },
+    "hospitalized": {
+      "cummulative": 17037,
+      "new": 68
+    },
+    "tested": {
+      "cummulative": 574617,
+      "new": 2280
+    },
+    "total_cases": {
+      "cummulative": 62780,
+      "new": 476
+    },
+    "deaths": {
+      "cummulative": 850,
+      "new": 2
+    },
     "test_per_million": 393966,
     "positivity_rate": 20.87719298245614,
     "active_cases": 4565
@@ -263,11 +443,26 @@
     "recovery_rate": 90.94,
     "recovered_patients": 57601,
     "recovery_24": 236,
-    "home_isolation": { "cummulative": 33894, "new": 307 },
-    "hospitalized": { "cummulative": 17134, "new": 97 },
-    "tested": { "cummulative": 577121, "new": 2504 },
-    "total_cases": { "cummulative": 63342, "new": 562 },
-    "deaths": { "cummulative": 853, "new": 3 },
+    "home_isolation": {
+      "cummulative": 33894,
+      "new": 307
+    },
+    "hospitalized": {
+      "cummulative": 17134,
+      "new": 97
+    },
+    "tested": {
+      "cummulative": 577121,
+      "new": 2504
+    },
+    "total_cases": {
+      "cummulative": 63342,
+      "new": 562
+    },
+    "deaths": {
+      "cummulative": 853,
+      "new": 3
+    },
     "test_per_million": 395683,
     "positivity_rate": 22.44408945686901,
     "active_cases": 4888
@@ -284,11 +479,26 @@
     "recovery_rate": 90.64,
     "recovered_patients": 57846,
     "recovery_24": 245,
-    "home_isolation": { "cummulative": 34295, "new": 401 },
-    "hospitalized": { "cummulative": 17212, "new": 78 },
-    "tested": { "cummulative": 579357, "new": 2236 },
-    "total_cases": { "cummulative": 63815, "new": 473 },
-    "deaths": { "cummulative": 857, "new": 4 },
+    "home_isolation": {
+      "cummulative": 34295,
+      "new": 401
+    },
+    "hospitalized": {
+      "cummulative": 17212,
+      "new": 78
+    },
+    "tested": {
+      "cummulative": 579357,
+      "new": 2236
+    },
+    "total_cases": {
+      "cummulative": 63815,
+      "new": 473
+    },
+    "deaths": {
+      "cummulative": 857,
+      "new": 4
+    },
     "test_per_million": 397215,
     "positivity_rate": 21.153846153846153,
     "active_cases": 5112
@@ -305,11 +515,26 @@
     "recovery_rate": 89.87,
     "recovered_patients": 58028,
     "recovery_24": 182,
-    "home_isolation": { "cummulative": 34662, "new": 367 },
-    "hospitalized": { "cummulative": 17309, "new": 97 },
-    "tested": { "cummulative": 582068, "new": 2711 },
-    "total_cases": { "cummulative": 64572, "new": 757 },
-    "deaths": { "cummulative": 862, "new": 5 },
+    "home_isolation": {
+      "cummulative": 34662,
+      "new": 367
+    },
+    "hospitalized": {
+      "cummulative": 17309,
+      "new": 97
+    },
+    "tested": {
+      "cummulative": 582068,
+      "new": 2711
+    },
+    "total_cases": {
+      "cummulative": 64572,
+      "new": 757
+    },
+    "deaths": {
+      "cummulative": 862,
+      "new": 5
+    },
     "test_per_million": 399074,
     "positivity_rate": 27.923275544079672,
     "active_cases": 5682
@@ -326,11 +551,26 @@
     "recovery_rate": 89.02,
     "recovered_patients": 58310,
     "recovery_24": 282,
-    "home_isolation": { "cummulative": 35019, "new": 357 },
-    "hospitalized": { "cummulative": 17409, "new": 100 },
-    "tested": { "cummulative": 585257, "new": 3189 },
-    "total_cases": { "cummulative": 65499, "new": 927 },
-    "deaths": { "cummulative": 868, "new": 6 },
+    "home_isolation": {
+      "cummulative": 35019,
+      "new": 357
+    },
+    "hospitalized": {
+      "cummulative": 17409,
+      "new": 100
+    },
+    "tested": {
+      "cummulative": 585257,
+      "new": 3189
+    },
+    "total_cases": {
+      "cummulative": 65499,
+      "new": 927
+    },
+    "deaths": {
+      "cummulative": 868,
+      "new": 6
+    },
     "test_per_million": 401261,
     "positivity_rate": 29.068673565380998,
     "active_cases": 6321
@@ -347,11 +587,26 @@
     "recovery_rate": 88.65,
     "recovered_patients": 58746,
     "recovery_24": 436,
-    "home_isolation": { "cummulative": 35453, "new": 434 },
-    "hospitalized": { "cummulative": 17603, "new": 97 },
-    "tested": { "cummulative": 588751, "new": 3494 },
-    "total_cases": { "cummulative": 66261, "new": 762 },
-    "deaths": { "cummulative": 872, "new": 4 },
+    "home_isolation": {
+      "cummulative": 35453,
+      "new": 434
+    },
+    "hospitalized": {
+      "cummulative": 17603,
+      "new": 97
+    },
+    "tested": {
+      "cummulative": 588751,
+      "new": 3494
+    },
+    "total_cases": {
+      "cummulative": 66261,
+      "new": 762
+    },
+    "deaths": {
+      "cummulative": 872,
+      "new": 4
+    },
     "test_per_million": 403656,
     "positivity_rate": 21.80881511161992,
     "active_cases": 6643
@@ -368,11 +623,26 @@
     "recovery_rate": 88.19,
     "recovered_patients": 59277,
     "recovery_24": 531,
-    "home_isolation": { "cummulative": 35854, "new": 401 },
-    "hospitalized": { "cummulative": 17708, "new": 105 },
-    "tested": { "cummulative": 592007, "new": 3256 },
-    "total_cases": { "cummulative": 67212, "new": 951 },
-    "deaths": { "cummulative": 883, "new": 11 },
+    "home_isolation": {
+      "cummulative": 35854,
+      "new": 401
+    },
+    "hospitalized": {
+      "cummulative": 17708,
+      "new": 105
+    },
+    "tested": {
+      "cummulative": 592007,
+      "new": 3256
+    },
+    "total_cases": {
+      "cummulative": 67212,
+      "new": 951
+    },
+    "deaths": {
+      "cummulative": 883,
+      "new": 11
+    },
     "test_per_million": 405888,
     "positivity_rate": 29.207616707616708,
     "active_cases": 7052
@@ -389,11 +659,26 @@
     "recovery_rate": 87.61,
     "recovered_patients": 59705,
     "recovery_24": 428,
-    "home_isolation": { "cummulative": 36257, "new": 403 },
-    "hospitalized": { "cummulative": 17795, "new": 87 },
-    "tested": { "cummulative": 594733, "new": 2726 },
-    "total_cases": { "cummulative": 68152, "new": 940 },
-    "deaths": { "cummulative": 900, "new": 17 },
+    "home_isolation": {
+      "cummulative": 36257,
+      "new": 403
+    },
+    "hospitalized": {
+      "cummulative": 17795,
+      "new": 87
+    },
+    "tested": {
+      "cummulative": 594733,
+      "new": 2726
+    },
+    "total_cases": {
+      "cummulative": 68152,
+      "new": 940
+    },
+    "deaths": {
+      "cummulative": 900,
+      "new": 17
+    },
     "test_per_million": 407758,
     "positivity_rate": 34.48275862068966,
     "active_cases": 7547
@@ -410,11 +695,26 @@
     "recovery_rate": 86.77,
     "recovered_patients": 60145,
     "recovery_24": 440,
-    "home_isolation": { "cummulative": 36854, "new": 597 },
-    "hospitalized": { "cummulative": 17937, "new": 142 },
-    "tested": { "cummulative": 598330, "new": 3597 },
-    "total_cases": { "cummulative": 69312, "new": 1160 },
-    "deaths": { "cummulative": 926, "new": 26 },
+    "home_isolation": {
+      "cummulative": 36854,
+      "new": 597
+    },
+    "hospitalized": {
+      "cummulative": 17937,
+      "new": 142
+    },
+    "tested": {
+      "cummulative": 598330,
+      "new": 3597
+    },
+    "total_cases": {
+      "cummulative": 69312,
+      "new": 1160
+    },
+    "deaths": {
+      "cummulative": 926,
+      "new": 26
+    },
     "test_per_million": 410224,
     "positivity_rate": 32.249096469279955,
     "active_cases": 8241
@@ -431,11 +731,26 @@
     "recovery_rate": 85.53,
     "recovered_patients": 60571,
     "recovery_24": 426,
-    "home_isolation": { "cummulative": 37449, "new": 595 },
-    "hospitalized": { "cummulative": 18095, "new": 158 },
-    "tested": { "cummulative": 602419, "new": 4089 },
-    "total_cases": { "cummulative": 70814, "new": 1502 },
-    "deaths": { "cummulative": 943, "new": 17 },
+    "home_isolation": {
+      "cummulative": 37449,
+      "new": 595
+    },
+    "hospitalized": {
+      "cummulative": 18095,
+      "new": 158
+    },
+    "tested": {
+      "cummulative": 602419,
+      "new": 4089
+    },
+    "total_cases": {
+      "cummulative": 70814,
+      "new": 1502
+    },
+    "deaths": {
+      "cummulative": 943,
+      "new": 17
+    },
     "test_per_million": 413027,
     "positivity_rate": 36.73269748104671,
     "active_cases": 9300
@@ -452,11 +767,26 @@
     "recovery_rate": 84.5,
     "recovered_patients": 61032,
     "recovery_24": 461,
-    "home_isolation": { "cummulative": 38100, "new": 651 },
-    "hospitalized": { "cummulative": 18230, "new": 135 },
-    "tested": { "cummulative": 606325, "new": 3906 },
-    "total_cases": { "cummulative": 72224, "new": 1410 },
-    "deaths": { "cummulative": 964, "new": 21 },
+    "home_isolation": {
+      "cummulative": 38100,
+      "new": 651
+    },
+    "hospitalized": {
+      "cummulative": 18230,
+      "new": 135
+    },
+    "tested": {
+      "cummulative": 606325,
+      "new": 3906
+    },
+    "total_cases": {
+      "cummulative": 72224,
+      "new": 1410
+    },
+    "deaths": {
+      "cummulative": 964,
+      "new": 21
+    },
     "test_per_million": 415705,
     "positivity_rate": 36.098310291858674,
     "active_cases": 10228
@@ -473,11 +803,26 @@
     "recovery_rate": 83.68,
     "recovered_patients": 61628,
     "recovery_24": 596,
-    "home_isolation": { "cummulative": 38803, "new": 703 },
-    "hospitalized": { "cummulative": 18376, "new": 146 },
-    "tested": { "cummulative": 609932, "new": 3607 },
-    "total_cases": { "cummulative": 73644, "new": 1420 },
-    "deaths": { "cummulative": 976, "new": 12 },
+    "home_isolation": {
+      "cummulative": 38803,
+      "new": 703
+    },
+    "hospitalized": {
+      "cummulative": 18376,
+      "new": 146
+    },
+    "tested": {
+      "cummulative": 609932,
+      "new": 3607
+    },
+    "total_cases": {
+      "cummulative": 73644,
+      "new": 1420
+    },
+    "deaths": {
+      "cummulative": 976,
+      "new": 12
+    },
     "test_per_million": 418178,
     "positivity_rate": 39.36789575824785,
     "active_cases": 11040
@@ -494,11 +839,26 @@
     "recovery_rate": 82.61,
     "recovered_patients": 62113,
     "recovery_24": 485,
-    "home_isolation": { "cummulative": 39369, "new": 566 },
-    "hospitalized": { "cummulative": 18535, "new": 159 },
-    "tested": { "cummulative": 613865, "new": 3933 },
-    "total_cases": { "cummulative": 75184, "new": 1540 },
-    "deaths": { "cummulative": 993, "new": 17 },
+    "home_isolation": {
+      "cummulative": 39369,
+      "new": 566
+    },
+    "hospitalized": {
+      "cummulative": 18535,
+      "new": 159
+    },
+    "tested": {
+      "cummulative": 613865,
+      "new": 3933
+    },
+    "total_cases": {
+      "cummulative": 75184,
+      "new": 1540
+    },
+    "deaths": {
+      "cummulative": 993,
+      "new": 17
+    },
     "test_per_million": 420875,
     "positivity_rate": 39.15586066615815,
     "active_cases": 12078
@@ -515,11 +875,26 @@
     "recovery_rate": 81.02,
     "recovered_patients": 62771,
     "recovery_24": 658,
-    "home_isolation": { "cummulative": 39916, "new": 547 },
-    "hospitalized": { "cummulative": 18670, "new": 135 },
-    "tested": { "cummulative": 619811, "new": 5946 },
-    "total_cases": { "cummulative": 77477, "new": 2293 },
-    "deaths": { "cummulative": 1017, "new": 24 },
+    "home_isolation": {
+      "cummulative": 39916,
+      "new": 547
+    },
+    "hospitalized": {
+      "cummulative": 18670,
+      "new": 135
+    },
+    "tested": {
+      "cummulative": 619811,
+      "new": 5946
+    },
+    "total_cases": {
+      "cummulative": 77477,
+      "new": 2293
+    },
+    "deaths": {
+      "cummulative": 1017,
+      "new": 24
+    },
     "test_per_million": 424951,
     "positivity_rate": 38.56374032963337,
     "active_cases": 13689
@@ -536,11 +911,26 @@
     "recovery_rate": 79.55,
     "recovered_patients": 63483,
     "recovery_24": 712,
-    "home_isolation": { "cummulative": 40548, "new": 632 },
-    "hospitalized": { "cummulative": 18848, "new": 178 },
-    "tested": { "cummulative": 626583, "new": 6772 },
-    "total_cases": { "cummulative": 79798, "new": 2321 },
-    "deaths": { "cummulative": 1055, "new": 38 },
+    "home_isolation": {
+      "cummulative": 40548,
+      "new": 632
+    },
+    "hospitalized": {
+      "cummulative": 18848,
+      "new": 178
+    },
+    "tested": {
+      "cummulative": 626583,
+      "new": 6772
+    },
+    "total_cases": {
+      "cummulative": 79798,
+      "new": 2321
+    },
+    "deaths": {
+      "cummulative": 1055,
+      "new": 38
+    },
     "test_per_million": 429595,
     "positivity_rate": 34.27347903130538,
     "active_cases": 15260
@@ -557,11 +947,26 @@
     "recovery_rate": 78.42,
     "recovered_patients": 64231,
     "recovery_24": 748,
-    "home_isolation": { "cummulative": 41962, "new": 1414 },
-    "hospitalized": { "cummulative": 19058, "new": 210 },
-    "tested": { "cummulative": 632131, "new": 5548 },
-    "total_cases": { "cummulative": 81908, "new": 2110 },
-    "deaths": { "cummulative": 1086, "new": 31 },
+    "home_isolation": {
+      "cummulative": 41962,
+      "new": 1414
+    },
+    "hospitalized": {
+      "cummulative": 19058,
+      "new": 210
+    },
+    "tested": {
+      "cummulative": 632131,
+      "new": 5548
+    },
+    "total_cases": {
+      "cummulative": 81908,
+      "new": 2110
+    },
+    "deaths": {
+      "cummulative": 1086,
+      "new": 31
+    },
     "test_per_million": 433398,
     "positivity_rate": 38.031723143475126,
     "active_cases": 16591
@@ -578,11 +983,26 @@
     "recovery_rate": 76.54,
     "recovered_patients": 65070,
     "recovery_24": 839,
-    "home_isolation": { "cummulative": 43229, "new": 1267 },
-    "hospitalized": { "cummulative": 19297, "new": 239 },
-    "tested": { "cummulative": 640149, "new": 8018 },
-    "total_cases": { "cummulative": 85009, "new": 3101 },
-    "deaths": { "cummulative": 1110, "new": 24 },
+    "home_isolation": {
+      "cummulative": 43229,
+      "new": 1267
+    },
+    "hospitalized": {
+      "cummulative": 19297,
+      "new": 239
+    },
+    "tested": {
+      "cummulative": 640149,
+      "new": 8018
+    },
+    "total_cases": {
+      "cummulative": 85009,
+      "new": 3101
+    },
+    "deaths": {
+      "cummulative": 1110,
+      "new": 24
+    },
     "test_per_million": 438896,
     "positivity_rate": 38.67548016961836,
     "active_cases": 18829
@@ -599,11 +1019,26 @@
     "recovery_rate": 74.96,
     "recovered_patients": 65984,
     "recovery_24": 914,
-    "home_isolation": { "cummulative": 45259, "new": 2030 },
-    "hospitalized": { "cummulative": 19537, "new": 240 },
-    "tested": { "cummulative": 646059, "new": 5910 },
-    "total_cases": { "cummulative": 88028, "new": 3019 },
-    "deaths": { "cummulative": 1146, "new": 36 },
+    "home_isolation": {
+      "cummulative": 45259,
+      "new": 2030
+    },
+    "hospitalized": {
+      "cummulative": 19537,
+      "new": 240
+    },
+    "tested": {
+      "cummulative": 646059,
+      "new": 5910
+    },
+    "total_cases": {
+      "cummulative": 88028,
+      "new": 3019
+    },
+    "deaths": {
+      "cummulative": 1146,
+      "new": 36
+    },
     "test_per_million": 442948,
     "positivity_rate": 51.082910321489,
     "active_cases": 20898
@@ -620,11 +1055,26 @@
     "recovery_rate": 73.52,
     "recovered_patients": 66939,
     "recovery_24": 955,
-    "home_isolation": { "cummulative": 46407, "new": 1148 },
-    "hospitalized": { "cummulative": 19751, "new": 214 },
-    "tested": { "cummulative": 652816, "new": 6757 },
-    "total_cases": { "cummulative": 91052, "new": 3024 },
-    "deaths": { "cummulative": 1168, "new": 22 },
+    "home_isolation": {
+      "cummulative": 46407,
+      "new": 1148
+    },
+    "hospitalized": {
+      "cummulative": 19751,
+      "new": 214
+    },
+    "tested": {
+      "cummulative": 652816,
+      "new": 6757
+    },
+    "total_cases": {
+      "cummulative": 91052,
+      "new": 3024
+    },
+    "deaths": {
+      "cummulative": 1168,
+      "new": 22
+    },
     "test_per_million": 447580,
     "positivity_rate": 44.753588870800655,
     "active_cases": 22945
@@ -641,11 +1091,26 @@
     "recovery_rate": 73.1,
     "recovered_patients": 68249,
     "recovery_24": 1310,
-    "home_isolation": { "cummulative": 49206, "new": 2799 },
-    "hospitalized": { "cummulative": 19976, "new": 225 },
-    "tested": { "cummulative": 658713, "new": 5897 },
-    "total_cases": { "cummulative": 93355, "new": 2303 },
-    "deaths": { "cummulative": 1222, "new": 54 },
+    "home_isolation": {
+      "cummulative": 49206,
+      "new": 2799
+    },
+    "hospitalized": {
+      "cummulative": 19976,
+      "new": 225
+    },
+    "tested": {
+      "cummulative": 658713,
+      "new": 5897
+    },
+    "total_cases": {
+      "cummulative": 93355,
+      "new": 2303
+    },
+    "deaths": {
+      "cummulative": 1222,
+      "new": 54
+    },
     "test_per_million": 451623,
     "positivity_rate": 39.05375614719348,
     "active_cases": 23884
@@ -662,11 +1127,26 @@
     "recovery_rate": 72.31,
     "recovered_patients": 70929,
     "recovery_24": 1425,
-    "home_isolation": { "cummulative": 54747, "new": 3474 },
-    "hospitalized": { "cummulative": 20500, "new": 288 },
-    "tested": { "cummulative": 669520, "new": 6013 },
-    "total_cases": { "cummulative": 98088, "new": 2703 },
-    "deaths": { "cummulative": 1320, "new": 46 },
+    "home_isolation": {
+      "cummulative": 54747,
+      "new": 3474
+    },
+    "hospitalized": {
+      "cummulative": 20500,
+      "new": 288
+    },
+    "tested": {
+      "cummulative": 669520,
+      "new": 6013
+    },
+    "total_cases": {
+      "cummulative": 98088,
+      "new": 2703
+    },
+    "deaths": {
+      "cummulative": 1320,
+      "new": 46
+    },
     "test_per_million": 459033,
     "positivity_rate": 44.95260269416265,
     "active_cases": 25839
@@ -683,11 +1163,26 @@
     "recovery_rate": 72.15,
     "recovered_patients": 72799,
     "recovery_24": 1870,
-    "home_isolation": { "cummulative": 57173, "new": 2426 },
-    "hospitalized": { "cummulative": 20777, "new": 277 },
-    "tested": { "cummulative": 676072, "new": 6552 },
-    "total_cases": { "cummulative": 100902, "new": 2814 },
-    "deaths": { "cummulative": 1372, "new": 52 },
+    "home_isolation": {
+      "cummulative": 57173,
+      "new": 2426
+    },
+    "hospitalized": {
+      "cummulative": 20777,
+      "new": 277
+    },
+    "tested": {
+      "cummulative": 676072,
+      "new": 6552
+    },
+    "total_cases": {
+      "cummulative": 100902,
+      "new": 2814
+    },
+    "deaths": {
+      "cummulative": 1372,
+      "new": 52
+    },
     "test_per_million": 463525,
     "positivity_rate": 42.94871794871795,
     "active_cases": 26731
@@ -704,11 +1199,26 @@
     "recovery_rate": 71.83,
     "recovered_patients": 74991,
     "recovery_24": 2192,
-    "home_isolation": { "cummulative": 59765, "new": 2592 },
-    "hospitalized": { "cummulative": 21043, "new": 266 },
-    "tested": { "cummulative": 682841, "new": 6769 },
-    "total_cases": { "cummulative": 104398, "new": 3496 },
-    "deaths": { "cummulative": 1443, "new": 71 },
+    "home_isolation": {
+      "cummulative": 59765,
+      "new": 2592
+    },
+    "hospitalized": {
+      "cummulative": 21043,
+      "new": 266
+    },
+    "tested": {
+      "cummulative": 682841,
+      "new": 6769
+    },
+    "total_cases": {
+      "cummulative": 104398,
+      "new": 3496
+    },
+    "deaths": {
+      "cummulative": 1443,
+      "new": 71
+    },
     "test_per_million": 468165,
     "positivity_rate": 51.6472152459743,
     "active_cases": 27964
@@ -725,11 +1235,26 @@
     "recovery_rate": 71.03,
     "recovered_patients": 77014,
     "recovery_24": 2023,
-    "home_isolation": { "cummulative": 62670, "new": 2905 },
-    "hospitalized": { "cummulative": 21334, "new": 291 },
-    "tested": { "cummulative": 690359, "new": 7518 },
-    "total_cases": { "cummulative": 108267, "new": 3869 },
-    "deaths": { "cummulative": 1501, "new": 58 },
+    "home_isolation": {
+      "cummulative": 62670,
+      "new": 2905
+    },
+    "hospitalized": {
+      "cummulative": 21334,
+      "new": 291
+    },
+    "tested": {
+      "cummulative": 690359,
+      "new": 7518
+    },
+    "total_cases": {
+      "cummulative": 108267,
+      "new": 3869
+    },
+    "deaths": {
+      "cummulative": 1501,
+      "new": 58
+    },
     "test_per_million": 473320,
     "positivity_rate": 51.4631551,
     "active_cases": 29752
@@ -746,11 +1271,26 @@
     "recovery_rate": 70.41,
     "recovered_patients": 79189,
     "recovery_24": 2175,
-    "home_isolation": { "cummulative": 66276, "new": 3606 },
-    "hospitalized": { "cummulative": 21630, "new": 296 },
-    "tested": { "cummulative": 698529, "new": 8170 },
-    "total_cases": { "cummulative": 112462, "new": 4195 },
-    "deaths": { "cummulative": 1557, "new": 56 },
+    "home_isolation": {
+      "cummulative": 66276,
+      "new": 3606
+    },
+    "hospitalized": {
+      "cummulative": 21630,
+      "new": 296
+    },
+    "tested": {
+      "cummulative": 698529,
+      "new": 8170
+    },
+    "total_cases": {
+      "cummulative": 112462,
+      "new": 4195
+    },
+    "deaths": {
+      "cummulative": 1557,
+      "new": 56
+    },
     "test_per_million": 478922,
     "positivity_rate": 51.3463892,
     "active_cases": 31716
@@ -767,11 +1307,26 @@
     "recovery_rate": 70.74,
     "recovered_patients": 82214,
     "recovery_24": 3025,
-    "home_isolation": { "cummulative": 70163, "new": 3887 },
-    "hospitalized": { "cummulative": 21940, "new": 310 },
-    "tested": { "cummulative": 706644, "new": 8115 },
-    "total_cases": { "cummulative": 116213, "new": 3751 },
-    "deaths": { "cummulative": 1612, "new": 55 },
+    "home_isolation": {
+      "cummulative": 70163,
+      "new": 3887
+    },
+    "hospitalized": {
+      "cummulative": 21940,
+      "new": 310
+    },
+    "tested": {
+      "cummulative": 706644,
+      "new": 8115
+    },
+    "total_cases": {
+      "cummulative": 116213,
+      "new": 3751
+    },
+    "deaths": {
+      "cummulative": 1612,
+      "new": 55
+    },
     "test_per_million": 484486,
     "positivity_rate": 46.2230437,
     "active_cases": 32387
@@ -788,11 +1343,26 @@
     "recovery_rate": 71.76,
     "recovered_patients": 85292,
     "recovery_24": 3078,
-    "home_isolation": { "cummulative": 73643, "new": 3480 },
-    "hospitalized": { "cummulative": 22211, "new": 271 },
-    "tested": { "cummulative": 712315, "new": 5671 },
-    "total_cases": { "cummulative": 118846, "new": 2633 },
-    "deaths": { "cummulative": 1679, "new": 67 },
+    "home_isolation": {
+      "cummulative": 73643,
+      "new": 3480
+    },
+    "hospitalized": {
+      "cummulative": 22211,
+      "new": 271
+    },
+    "tested": {
+      "cummulative": 712315,
+      "new": 5671
+    },
+    "total_cases": {
+      "cummulative": 118846,
+      "new": 2633
+    },
+    "deaths": {
+      "cummulative": 1679,
+      "new": 67
+    },
     "test_per_million": 488373,
     "positivity_rate": 46.42920119908305,
     "active_cases": 31875
@@ -809,11 +1379,26 @@
     "recovery_rate": 72.06,
     "recovered_patients": 87659,
     "recovery_24": 2367,
-    "home_isolation": { "cummulative": 75970, "new": 2327 },
-    "hospitalized": { "cummulative": 22520, "new": 309 },
-    "tested": { "cummulative": 718422, "new": 6107 },
-    "total_cases": { "cummulative": 121650, "new": 2804 },
-    "deaths": { "cummulative": 1729, "new": 50 },
+    "home_isolation": {
+      "cummulative": 75970,
+      "new": 2327
+    },
+    "hospitalized": {
+      "cummulative": 22520,
+      "new": 309
+    },
+    "tested": {
+      "cummulative": 718422,
+      "new": 6107
+    },
+    "total_cases": {
+      "cummulative": 121650,
+      "new": 2804
+    },
+    "deaths": {
+      "cummulative": 1729,
+      "new": 50
+    },
     "test_per_million": 492561,
     "positivity_rate": 45.91452431635828,
     "active_cases": 32262
@@ -830,11 +1415,26 @@
     "recovery_rate": 72.24,
     "recovered_patients": 90134,
     "recovery_24": 2475,
-    "home_isolation": { "cummulative": 78918, "new": 2948 },
-    "hospitalized": { "cummulative": 22841, "new": 321 },
-    "tested": { "cummulative": 726927, "new": 8505 },
-    "total_cases": { "cummulative": 124774, "new": 3124 },
-    "deaths": { "cummulative": 1804, "new": 75 },
+    "home_isolation": {
+      "cummulative": 78918,
+      "new": 2948
+    },
+    "hospitalized": {
+      "cummulative": 22841,
+      "new": 321
+    },
+    "tested": {
+      "cummulative": 726927,
+      "new": 8505
+    },
+    "total_cases": {
+      "cummulative": 124774,
+      "new": 3124
+    },
+    "deaths": {
+      "cummulative": 1804,
+      "new": 75
+    },
     "test_per_million": 498392,
     "positivity_rate": 45.91452431635828,
     "active_cases": 32836
@@ -851,11 +1451,26 @@
     "recovery_rate": 72.84,
     "recovered_patients": 92974,
     "recovery_24": 2840,
-    "home_isolation": { "cummulative": 81490, "new": 2572 },
-    "hospitalized": { "cummulative": 23175, "new": 334 },
-    "tested": { "cummulative": 733847, "new": 6920 },
-    "total_cases": { "cummulative": 127639, "new": 2865 },
-    "deaths": { "cummulative": 1874, "new": 70 },
+    "home_isolation": {
+      "cummulative": 81490,
+      "new": 2572
+    },
+    "hospitalized": {
+      "cummulative": 23175,
+      "new": 334
+    },
+    "tested": {
+      "cummulative": 733847,
+      "new": 6920
+    },
+    "total_cases": {
+      "cummulative": 127639,
+      "new": 2865
+    },
+    "deaths": {
+      "cummulative": 1874,
+      "new": 70
+    },
     "test_per_million": 503136,
     "positivity_rate": 41.4017341,
     "active_cases": 32791
@@ -872,11 +1487,26 @@
     "recovery_rate": 73.19,
     "recovered_patients": 95240,
     "recovery_24": 2266,
-    "home_isolation": { "cummulative": 83733, "new": 2243 },
-    "hospitalized": { "cummulative": 23423, "new": 248 },
-    "tested": { "cummulative": 740931, "new": 7084 },
-    "total_cases": { "cummulative": 130130, "new": 2491 },
-    "deaths": { "cummulative": 1937, "new": 63 },
+    "home_isolation": {
+      "cummulative": 83733,
+      "new": 2243
+    },
+    "hospitalized": {
+      "cummulative": 23423,
+      "new": 248
+    },
+    "tested": {
+      "cummulative": 740931,
+      "new": 7084
+    },
+    "total_cases": {
+      "cummulative": 130130,
+      "new": 2491
+    },
+    "deaths": {
+      "cummulative": 1937,
+      "new": 63
+    },
     "test_per_million": 507993,
     "positivity_rate": 35.16374929418408,
     "active_cases": 32953
@@ -893,11 +1523,26 @@
     "recovery_rate": 74.07,
     "recovered_patients": 98200,
     "recovery_24": 2960,
-    "home_isolation": { "cummulative": 85854, "new": 2121 },
-    "hospitalized": { "cummulative": 23669, "new": 246 },
-    "tested": { "cummulative": 747700, "new": 6769 },
-    "total_cases": { "cummulative": 132585, "new": 2455 },
-    "deaths": { "cummulative": 1998, "new": 61 },
+    "home_isolation": {
+      "cummulative": 85854,
+      "new": 2121
+    },
+    "hospitalized": {
+      "cummulative": 23669,
+      "new": 246
+    },
+    "tested": {
+      "cummulative": 747700,
+      "new": 6769
+    },
+    "total_cases": {
+      "cummulative": 132585,
+      "new": 2455
+    },
+    "deaths": {
+      "cummulative": 1998,
+      "new": 61
+    },
     "test_per_million": 512634,
     "positivity_rate": 36.26828187324568,
     "active_cases": 32387
@@ -914,11 +1559,26 @@
     "recovery_rate": 75.6,
     "recovered_patients": 101712,
     "recovery_24": 3512,
-    "home_isolation": { "cummulative": 87599, "new": 1745 },
-    "hospitalized": { "cummulative": 23911, "new": 242 },
-    "tested": { "cummulative": 753271, "new": 5571 },
-    "total_cases": { "cummulative": 134542, "new": 1957 },
-    "deaths": { "cummulative": 2056, "new": 58 },
+    "home_isolation": {
+      "cummulative": 87599,
+      "new": 1745
+    },
+    "hospitalized": {
+      "cummulative": 23911,
+      "new": 242
+    },
+    "tested": {
+      "cummulative": 753271,
+      "new": 5571
+    },
+    "total_cases": {
+      "cummulative": 134542,
+      "new": 1957
+    },
+    "deaths": {
+      "cummulative": 2056,
+      "new": 58
+    },
     "test_per_million": 516454,
     "positivity_rate": 35.12834320588763,
     "active_cases": 30774
@@ -935,11 +1595,26 @@
     "recovery_rate": 77.66,
     "recovered_patients": 105505,
     "recovery_24": 3793,
-    "home_isolation": { "cummulative": 88799, "new": 1200 },
-    "hospitalized": { "cummulative": 24121, "new": 210 },
-    "tested": { "cummulative": 757148, "new": 3877 },
-    "total_cases": { "cummulative": 135856, "new": 1314 },
-    "deaths": { "cummulative": 2099, "new": 43 },
+    "home_isolation": {
+      "cummulative": 88799,
+      "new": 1200
+    },
+    "hospitalized": {
+      "cummulative": 24121,
+      "new": 210
+    },
+    "tested": {
+      "cummulative": 757148,
+      "new": 3877
+    },
+    "total_cases": {
+      "cummulative": 135856,
+      "new": 1314
+    },
+    "deaths": {
+      "cummulative": 2099,
+      "new": 43
+    },
     "test_per_million": 519112,
     "positivity_rate": 33.89218467887542,
     "active_cases": 28252
@@ -956,11 +1631,26 @@
     "recovery_rate": 79.69,
     "recovered_patients": 109513,
     "recovery_24": 4008,
-    "home_isolation": { "cummulative": 89635, "new": 836 },
-    "hospitalized": { "cummulative": 24310, "new": 189 },
-    "tested": { "cummulative": 761413, "new": 4265 },
-    "total_cases": { "cummulative": 137418, "new": 1562 },
-    "deaths": { "cummulative": 2152, "new": 53 },
+    "home_isolation": {
+      "cummulative": 89635,
+      "new": 836
+    },
+    "hospitalized": {
+      "cummulative": 24310,
+      "new": 189
+    },
+    "tested": {
+      "cummulative": 761413,
+      "new": 4265
+    },
+    "total_cases": {
+      "cummulative": 137418,
+      "new": 1562
+    },
+    "deaths": {
+      "cummulative": 2152,
+      "new": 53
+    },
     "test_per_million": 522036,
     "positivity_rate": 36.623681125439624,
     "active_cases": 25753
@@ -977,11 +1667,26 @@
     "recovery_rate": 81.16,
     "recovered_patients": 112633,
     "recovery_24": 3120,
-    "home_isolation": { "cummulative": 90815, "new": 1180 },
-    "hospitalized": { "cummulative": 24494, "new": 184 },
-    "tested": { "cummulative": 765311, "new": 3898 },
-    "total_cases": { "cummulative": 138776, "new": 1358 },
-    "deaths": { "cummulative": 2197, "new": 45 },
+    "home_isolation": {
+      "cummulative": 90815,
+      "new": 1180
+    },
+    "hospitalized": {
+      "cummulative": 24494,
+      "new": 184
+    },
+    "tested": {
+      "cummulative": 765311,
+      "new": 3898
+    },
+    "total_cases": {
+      "cummulative": 138776,
+      "new": 1358
+    },
+    "deaths": {
+      "cummulative": 2197,
+      "new": 45
+    },
     "test_per_million": 524709,
     "positivity_rate": 34.8383787,
     "active_cases": 23946
@@ -998,11 +1703,26 @@
     "recovery_rate": 82,
     "recovered_patients": 114793,
     "recovery_24": 2160,
-    "home_isolation": { "cummulative": 91791, "new": 976 },
-    "hospitalized": { "cummulative": 24703, "new": 209 },
-    "tested": { "cummulative": 769184, "new": 3873 },
-    "total_cases": { "cummulative": 139985, "new": 1209 },
-    "deaths": { "cummulative": 2228, "new": 31 },
+    "home_isolation": {
+      "cummulative": 91791,
+      "new": 976
+    },
+    "hospitalized": {
+      "cummulative": 24703,
+      "new": 209
+    },
+    "tested": {
+      "cummulative": 769184,
+      "new": 3873
+    },
+    "total_cases": {
+      "cummulative": 139985,
+      "new": 1209
+    },
+    "deaths": {
+      "cummulative": 2228,
+      "new": 31
+    },
     "test_per_million": 527364,
     "positivity_rate": 31.2161115,
     "active_cases": 22964
@@ -1013,11 +1733,26 @@
     "recovery_rate": 83.7,
     "recovered_patients": 118487,
     "recovery_24": 3694,
-    "home_isolation": { "cummulative": 93172, "new": 1381 },
-    "hospitalized": { "cummulative": 24904, "new": 201 },
-    "tested": { "cummulative": 773765, "new": 4581 },
-    "total_cases": { "cummulative": 141567, "new": 1582 },
-    "deaths": { "cummulative": 2272, "new": 44 },
+    "home_isolation": {
+      "cummulative": 93172,
+      "new": 1381
+    },
+    "hospitalized": {
+      "cummulative": 24904,
+      "new": 201
+    },
+    "tested": {
+      "cummulative": 773765,
+      "new": 4581
+    },
+    "total_cases": {
+      "cummulative": 141567,
+      "new": 1582
+    },
+    "deaths": {
+      "cummulative": 2272,
+      "new": 44
+    },
     "test_per_million": 530505,
     "positivity_rate": 34.53394455359092,
     "active_cases": 20808
@@ -1028,11 +1763,26 @@
     "recovery_rate": 84.89,
     "recovered_patients": 121562,
     "recovery_24": 3075,
-    "home_isolation": { "cummulative": 94610, "new": 1438 },
-    "hospitalized": { "cummulative": 25111, "new": 207 },
-    "tested": { "cummulative": 778828, "new": 5063 },
-    "total_cases": { "cummulative": 143192, "new": 1625 },
-    "deaths": { "cummulative": 2302, "new": 30 },
+    "home_isolation": {
+      "cummulative": 94610,
+      "new": 1438
+    },
+    "hospitalized": {
+      "cummulative": 25111,
+      "new": 207
+    },
+    "tested": {
+      "cummulative": 778828,
+      "new": 5063
+    },
+    "total_cases": {
+      "cummulative": 143192,
+      "new": 1625
+    },
+    "deaths": {
+      "cummulative": 2302,
+      "new": 30
+    },
     "test_per_million": 533976,
     "positivity_rate": 32.09559549674106,
     "active_cases": 19328
@@ -1043,11 +1793,26 @@
     "recovery_rate": 85.79,
     "recovered_patients": 124255,
     "recovery_24": 2693,
-    "home_isolation": { "cummulative": 96061, "new": 1451 },
-    "hospitalized": { "cummulative": 25307, "new": 196 },
-    "tested": { "cummulative": 783409, "new": 4581 },
-    "total_cases": { "cummulative": 144839, "new": 1647 },
-    "deaths": { "cummulative": 2341, "new": 39 },
+    "home_isolation": {
+      "cummulative": 96061,
+      "new": 1451
+    },
+    "hospitalized": {
+      "cummulative": 25307,
+      "new": 196
+    },
+    "tested": {
+      "cummulative": 783409,
+      "new": 4581
+    },
+    "total_cases": {
+      "cummulative": 144839,
+      "new": 1647
+    },
+    "deaths": {
+      "cummulative": 2341,
+      "new": 39
+    },
     "test_per_million": 537117,
     "positivity_rate": 35.952848722986246,
     "active_cases": 18243
@@ -1058,11 +1823,26 @@
     "recovery_rate": 86.58,
     "recovered_patients": 126800,
     "recovery_24": 2545,
-    "home_isolation": { "cummulative": 97516, "new": 1455 },
-    "hospitalized": { "cummulative": 25473, "new": 166 },
-    "tested": { "cummulative": 787977, "new": 4568 },
-    "total_cases": { "cummulative": 146460, "new": 1621 },
-    "deaths": { "cummulative": 2383, "new": 42 },
+    "home_isolation": {
+      "cummulative": 97516,
+      "new": 1455
+    },
+    "hospitalized": {
+      "cummulative": 25473,
+      "new": 166
+    },
+    "tested": {
+      "cummulative": 787977,
+      "new": 4568
+    },
+    "total_cases": {
+      "cummulative": 146460,
+      "new": 1621
+    },
+    "deaths": {
+      "cummulative": 2383,
+      "new": 42
+    },
     "test_per_million": 540249,
     "positivity_rate": 35.48598949211909,
     "active_cases": 17277
@@ -1073,11 +1853,26 @@
     "recovery_rate": 87.35,
     "recovered_patients": 129162,
     "recovery_24": 2362,
-    "home_isolation": { "cummulative": 98752, "new": 1236 },
-    "hospitalized": { "cummulative": 25638, "new": 165 },
-    "tested": { "cummulative": 791940, "new": 3963 },
-    "total_cases": { "cummulative": 147861, "new": 1401 },
-    "deaths": { "cummulative": 2421, "new": 38 },
+    "home_isolation": {
+      "cummulative": 98752,
+      "new": 1236
+    },
+    "hospitalized": {
+      "cummulative": 25638,
+      "new": 165
+    },
+    "tested": {
+      "cummulative": 791940,
+      "new": 3963
+    },
+    "total_cases": {
+      "cummulative": 147861,
+      "new": 1401
+    },
+    "deaths": {
+      "cummulative": 2421,
+      "new": 38
+    },
     "test_per_million": 542966,
     "positivity_rate": 35.35200605601817,
     "active_cases": 16278
@@ -1088,11 +1883,26 @@
     "recovery_rate": 87.84,
     "recovered_patients": 131244,
     "recovery_24": 2082,
-    "home_isolation": { "cummulative": 100149, "new": 1397 },
-    "hospitalized": { "cummulative": 25790, "new": 152 },
-    "tested": { "cummulative": 796984, "new": 5044 },
-    "total_cases": { "cummulative": 149410, "new": 1549 },
-    "deaths": { "cummulative": 2460, "new": 39 },
+    "home_isolation": {
+      "cummulative": 100149,
+      "new": 1397
+    },
+    "hospitalized": {
+      "cummulative": 25790,
+      "new": 152
+    },
+    "tested": {
+      "cummulative": 796984,
+      "new": 5044
+    },
+    "total_cases": {
+      "cummulative": 149410,
+      "new": 1549
+    },
+    "deaths": {
+      "cummulative": 2460,
+      "new": 39
+    },
     "test_per_million": 546424,
     "positivity_rate": 30.709754163362412,
     "active_cases": 15706
@@ -1109,11 +1919,26 @@
     "recovery_rate": 87.88,
     "recovered_patients": 132607,
     "recovery_24": 1363,
-    "home_isolation": { "cummulative": 101471, "new": 1322 },
-    "hospitalized": { "cummulative": 25955, "new": 165 },
-    "tested": { "cummulative": 801599, "new": 4615 },
-    "total_cases": { "cummulative": 150897, "new": 1487 },
-    "deaths": { "cummulative": 2499, "new": 39 },
+    "home_isolation": {
+      "cummulative": 101471,
+      "new": 1322
+    },
+    "hospitalized": {
+      "cummulative": 25955,
+      "new": 165
+    },
+    "tested": {
+      "cummulative": 801599,
+      "new": 4615
+    },
+    "total_cases": {
+      "cummulative": 150897,
+      "new": 1487
+    },
+    "deaths": {
+      "cummulative": 2499,
+      "new": 39
+    },
     "test_per_million": 549588,
     "positivity_rate": 32.22101841820152,
     "active_cases": 15791
@@ -1130,11 +1955,26 @@
     "recovery_rate": 88.03,
     "recovered_patients": 134164,
     "recovery_24": 1557,
-    "home_isolation": { "cummulative": 102827, "new": 1356 },
-    "hospitalized": { "cummulative": 26103, "new": 148 },
-    "tested": { "cummulative": 807550, "new": 5951 },
-    "total_cases": { "cummulative": 152401, "new": 1504 },
-    "deaths": { "cummulative": 2538, "new": 39 },
+    "home_isolation": {
+      "cummulative": 102827,
+      "new": 1356
+    },
+    "hospitalized": {
+      "cummulative": 26103,
+      "new": 148
+    },
+    "tested": {
+      "cummulative": 807550,
+      "new": 5951
+    },
+    "total_cases": {
+      "cummulative": 152401,
+      "new": 1504
+    },
+    "deaths": {
+      "cummulative": 2538,
+      "new": 39
+    },
     "test_per_million": 553668,
     "positivity_rate": 25.27306335069736,
     "active_cases": 15699
@@ -1151,11 +1991,26 @@
     "recovery_rate": 88.34,
     "recovered_patients": 135560,
     "recovery_24": 1396,
-    "home_isolation": { "cummulative": 103759, "new": 932 },
-    "hospitalized": { "cummulative": 26226, "new": 123 },
-    "tested": { "cummulative": 812415, "new": 4865 },
-    "total_cases": { "cummulative": 153456, "new": 1055 },
-    "deaths": { "cummulative": 2570, "new": 32 },
+    "home_isolation": {
+      "cummulative": 103759,
+      "new": 932
+    },
+    "hospitalized": {
+      "cummulative": 26226,
+      "new": 123
+    },
+    "tested": {
+      "cummulative": 812415,
+      "new": 4865
+    },
+    "total_cases": {
+      "cummulative": 153456,
+      "new": 1055
+    },
+    "deaths": {
+      "cummulative": 2570,
+      "new": 32
+    },
     "test_per_million": 557004,
     "positivity_rate": 21.685508735868446,
     "active_cases": 15326
@@ -1172,11 +2027,26 @@
     "recovery_rate": 88.57,
     "recovered_patients": 136766,
     "recovery_24": 1206,
-    "home_isolation": { "cummulative": 104606, "new": 847 },
-    "hospitalized": { "cummulative": 26342, "new": 116 },
-    "tested": { "cummulative": 816691, "new": 4276 },
-    "total_cases": { "cummulative": 154419, "new": 963 },
-    "deaths": { "cummulative": 2597, "new": 27 },
+    "home_isolation": {
+      "cummulative": 104606,
+      "new": 847
+    },
+    "hospitalized": {
+      "cummulative": 26342,
+      "new": 116
+    },
+    "tested": {
+      "cummulative": 816691,
+      "new": 4276
+    },
+    "total_cases": {
+      "cummulative": 154419,
+      "new": 963
+    },
+    "deaths": {
+      "cummulative": 2597,
+      "new": 27
+    },
     "test_per_million": 559935,
     "positivity_rate": 22.521047708138447,
     "active_cases": 15056
@@ -1193,11 +2063,26 @@
     "recovery_rate": 89.27,
     "recovered_patients": 138429,
     "recovery_24": 1663,
-    "home_isolation": { "cummulative": 105152, "new": 546 },
-    "hospitalized": { "cummulative": 26441, "new": 99 },
-    "tested": { "cummulative": 819933, "new": 3242 },
-    "total_cases": { "cummulative": 155064, "new": 645 },
-    "deaths": { "cummulative": 2625, "new": 28 },
+    "home_isolation": {
+      "cummulative": 105152,
+      "new": 546
+    },
+    "hospitalized": {
+      "cummulative": 26441,
+      "new": 99
+    },
+    "tested": {
+      "cummulative": 819933,
+      "new": 3242
+    },
+    "total_cases": {
+      "cummulative": 155064,
+      "new": 645
+    },
+    "deaths": {
+      "cummulative": 2625,
+      "new": 28
+    },
     "test_per_million": 562158,
     "positivity_rate": 19.895126465144973,
     "active_cases": 14010
@@ -1214,11 +2099,26 @@
     "recovery_rate": 90.1,
     "recovered_patients": 140254,
     "recovery_24": 1825,
-    "home_isolation": { "cummulative": 105652, "new": 500 },
-    "hospitalized": { "cummulative": 26543, "new": 102 },
-    "tested": { "cummulative": 822937, "new": 3004 },
-    "total_cases": { "cummulative": 155666, "new": 602 },
-    "deaths": { "cummulative": 2649, "new": 24 },
+    "home_isolation": {
+      "cummulative": 105652,
+      "new": 500
+    },
+    "hospitalized": {
+      "cummulative": 26543,
+      "new": 102
+    },
+    "tested": {
+      "cummulative": 822937,
+      "new": 3004
+    },
+    "total_cases": {
+      "cummulative": 155666,
+      "new": 602
+    },
+    "deaths": {
+      "cummulative": 2649,
+      "new": 24
+    },
     "test_per_million": 564218,
     "positivity_rate": 20.03994673768309,
     "active_cases": 12763
@@ -1235,11 +2135,26 @@
     "recovery_rate": 90.71,
     "recovered_patients": 142031,
     "recovery_24": 1777,
-    "home_isolation": { "cummulative": 106462, "new": 810 },
-    "hospitalized": { "cummulative": 26636, "new": 93 },
-    "tested": { "cummulative": 827657, "new": 4720 },
-    "total_cases": { "cummulative": 156569, "new": 903 },
-    "deaths": { "cummulative": 2671, "new": 22 },
+    "home_isolation": {
+      "cummulative": 106462,
+      "new": 810
+    },
+    "hospitalized": {
+      "cummulative": 26636,
+      "new": 93
+    },
+    "tested": {
+      "cummulative": 827657,
+      "new": 4720
+    },
+    "total_cases": {
+      "cummulative": 156569,
+      "new": 903
+    },
+    "deaths": {
+      "cummulative": 2671,
+      "new": 22
+    },
     "test_per_million": 567454,
     "positivity_rate": 19.13135593220339,
     "active_cases": 11867
@@ -1256,11 +2171,26 @@
     "recovery_rate": 91.4,
     "recovered_patients": 143742,
     "recovery_24": 1711,
-    "home_isolation": { "cummulative": 107067, "new": 605 },
-    "hospitalized": { "cummulative": 26737, "new": 101 },
-    "tested": { "cummulative": 831372, "new": 3715 },
-    "total_cases": { "cummulative": 157275, "new": 706 },
-    "deaths": { "cummulative": 2693, "new": 22 },
+    "home_isolation": {
+      "cummulative": 107067,
+      "new": 605
+    },
+    "hospitalized": {
+      "cummulative": 26737,
+      "new": 101
+    },
+    "tested": {
+      "cummulative": 831372,
+      "new": 3715
+    },
+    "total_cases": {
+      "cummulative": 157275,
+      "new": 706
+    },
+    "deaths": {
+      "cummulative": 2693,
+      "new": 22
+    },
     "test_per_million": 570001,
     "positivity_rate": 19.004037685060567,
     "active_cases": 10840
@@ -1277,11 +2207,26 @@
     "recovery_rate": 92.14,
     "recovered_patients": 145437,
     "recovery_24": 1695,
-    "home_isolation": { "cummulative": 107549, "new": 482 },
-    "hospitalized": { "cummulative": 26827, "new": 90 },
-    "tested": { "cummulative": 834703, "new": 3331 },
-    "total_cases": { "cummulative": 157847, "new": 572 },
-    "deaths": { "cummulative": 2710, "new": 17 },
+    "home_isolation": {
+      "cummulative": 107549,
+      "new": 482
+    },
+    "hospitalized": {
+      "cummulative": 26827,
+      "new": 90
+    },
+    "tested": {
+      "cummulative": 834703,
+      "new": 3331
+    },
+    "total_cases": {
+      "cummulative": 157847,
+      "new": 572
+    },
+    "deaths": {
+      "cummulative": 2710,
+      "new": 17
+    },
     "test_per_million": 572285,
     "positivity_rate": 17.172020414290003,
     "active_cases": 9700
@@ -1298,11 +2243,26 @@
     "recovery_rate": 92.54,
     "recovered_patients": 146597,
     "recovery_24": 1160,
-    "home_isolation": { "cummulative": 108052, "new": 503 },
-    "hospitalized": { "cummulative": 26900, "new": 73 },
-    "tested": { "cummulative": 838789, "new": 4086 },
-    "total_cases": { "cummulative": 158423, "new": 576 },
-    "deaths": { "cummulative": 2727, "new": 17 },
+    "home_isolation": {
+      "cummulative": 108052,
+      "new": 503
+    },
+    "hospitalized": {
+      "cummulative": 26900,
+      "new": 73
+    },
+    "tested": {
+      "cummulative": 838789,
+      "new": 4086
+    },
+    "total_cases": {
+      "cummulative": 158423,
+      "new": 576
+    },
+    "deaths": {
+      "cummulative": 2727,
+      "new": 17
+    },
     "test_per_million": 575086,
     "positivity_rate": 14.096916299559473,
     "active_cases": 9099
@@ -1319,11 +2279,26 @@
     "recovery_rate": 93.11,
     "recovered_patients": 148030,
     "recovery_24": 1433,
-    "home_isolation": { "cummulative": 108517, "new": 465 },
-    "hospitalized": { "cummulative": 27002, "new": 102 },
-    "tested": { "cummulative": 842920, "new": 4131 },
-    "total_cases": { "cummulative": 158990, "new": 567 },
-    "deaths": { "cummulative": 2744, "new": 17 },
+    "home_isolation": {
+      "cummulative": 108517,
+      "new": 465
+    },
+    "hospitalized": {
+      "cummulative": 27002,
+      "new": 102
+    },
+    "tested": {
+      "cummulative": 842920,
+      "new": 4131
+    },
+    "total_cases": {
+      "cummulative": 158990,
+      "new": 567
+    },
+    "deaths": {
+      "cummulative": 2744,
+      "new": 17
+    },
     "test_per_million": 577918,
     "positivity_rate": 13.725490196078432,
     "active_cases": 8216
@@ -1340,11 +2315,26 @@
     "recovery_rate": 93.78,
     "recovered_patients": 149479,
     "recovery_24": 1449,
-    "home_isolation": { "cummulative": 108847, "new": 330 },
-    "hospitalized": { "cummulative": 27075, "new": 73 },
-    "tested": { "cummulative": 845942, "new": 3022 },
-    "total_cases": { "cummulative": 159393, "new": 403 },
-    "deaths": { "cummulative": 2760, "new": 16 },
+    "home_isolation": {
+      "cummulative": 108847,
+      "new": 330
+    },
+    "hospitalized": {
+      "cummulative": 27075,
+      "new": 73
+    },
+    "tested": {
+      "cummulative": 845942,
+      "new": 3022
+    },
+    "total_cases": {
+      "cummulative": 159393,
+      "new": 403
+    },
+    "deaths": {
+      "cummulative": 2760,
+      "new": 16
+    },
     "test_per_million": 579990,
     "positivity_rate": 13.335539377895433,
     "active_cases": 7154
@@ -1361,11 +2351,26 @@
     "recovery_rate": 94.22,
     "recovered_patients": 150574,
     "recovery_24": 1162,
-    "home_isolation": { "cummulative": 109196, "new": 349 },
-    "hospitalized": { "cummulative": 27144, "new": 69 },
-    "tested": { "cummulative": 848687, "new": 2745 },
-    "total_cases": { "cummulative": 159811, "new": 418 },
-    "deaths": { "cummulative": 2840, "new": 13 },
+    "home_isolation": {
+      "cummulative": 109196,
+      "new": 349
+    },
+    "hospitalized": {
+      "cummulative": 27144,
+      "new": 69
+    },
+    "tested": {
+      "cummulative": 848687,
+      "new": 2745
+    },
+    "total_cases": {
+      "cummulative": 159811,
+      "new": 418
+    },
+    "deaths": {
+      "cummulative": 2840,
+      "new": 13
+    },
     "test_per_million": 581872,
     "positivity_rate": 15.227686703096538,
     "active_cases": 6397
@@ -1382,11 +2387,26 @@
     "recovery_rate": 94.54,
     "recovered_patients": 151526,
     "recovery_24": 957,
-    "home_isolation": { "cummulative": 109595, "new": 399 },
-    "hospitalized": { "cummulative": 27218, "new": 74 },
-    "tested": { "cummulative": 851801, "new": 3114 },
-    "total_cases": { "cummulative": 160284, "new": 473 },
-    "deaths": { "cummulative": 2859, "new": 14 },
+    "home_isolation": {
+      "cummulative": 109595,
+      "new": 399
+    },
+    "hospitalized": {
+      "cummulative": 27218,
+      "new": 74
+    },
+    "tested": {
+      "cummulative": 851801,
+      "new": 3114
+    },
+    "total_cases": {
+      "cummulative": 160284,
+      "new": 473
+    },
+    "deaths": {
+      "cummulative": 2859,
+      "new": 14
+    },
     "test_per_million": 584007,
     "positivity_rate": 15.189466923570972,
     "active_cases": 5899
@@ -1403,11 +2423,26 @@
     "recovery_rate": 94.61,
     "recovered_patients": 152073,
     "recovery_24": 549,
-    "home_isolation": { "cummulative": 109985, "new": 390 },
-    "hospitalized": { "cummulative": 27284, "new": 66 },
-    "tested": { "cummulative": 854958, "new": 3157 },
-    "total_cases": { "cummulative": 160740, "new": 456 },
-    "deaths": { "cummulative": 2877, "new": 16 },
+    "home_isolation": {
+      "cummulative": 109985,
+      "new": 390
+    },
+    "hospitalized": {
+      "cummulative": 27284,
+      "new": 66
+    },
+    "tested": {
+      "cummulative": 854958,
+      "new": 3157
+    },
+    "total_cases": {
+      "cummulative": 160740,
+      "new": 456
+    },
+    "deaths": {
+      "cummulative": 2877,
+      "new": 16
+    },
     "test_per_million": 586172,
     "positivity_rate": 14.444092492872981,
     "active_cases": 5790
@@ -1424,11 +2459,26 @@
     "recovery_rate": 94.73,
     "recovered_patients": 152657,
     "recovery_24": 585,
-    "home_isolation": { "cummulative": 110331, "new": 346 },
-    "hospitalized": { "cummulative": 27351, "new": 67 },
-    "tested": { "cummulative": 858256, "new": 3298 },
-    "total_cases": { "cummulative": 161153, "new": 413 },
-    "deaths": { "cummulative": 2891, "new": 13 },
+    "home_isolation": {
+      "cummulative": 110331,
+      "new": 346
+    },
+    "hospitalized": {
+      "cummulative": 27351,
+      "new": 67
+    },
+    "tested": {
+      "cummulative": 858256,
+      "new": 3298
+    },
+    "total_cases": {
+      "cummulative": 161153,
+      "new": 413
+    },
+    "deaths": {
+      "cummulative": 2891,
+      "new": 13
+    },
     "test_per_million": 588433,
     "positivity_rate": 12.52274105518496,
     "active_cases": 5605
@@ -1445,11 +2495,26 @@
     "recovery_rate": 94.99,
     "recovered_patients": 153476,
     "recovery_24": 819,
-    "home_isolation": { "cummulative": 110704, "new": 373 },
-    "hospitalized": { "cummulative": 27401, "new": 50 },
-    "tested": { "cummulative": 861855, "new": 3599 },
-    "total_cases": { "cummulative": 161576, "new": 423 },
-    "deaths": { "cummulative": 2899, "new": 8 },
+    "home_isolation": {
+      "cummulative": 110704,
+      "new": 373
+    },
+    "hospitalized": {
+      "cummulative": 27401,
+      "new": 50
+    },
+    "tested": {
+      "cummulative": 861855,
+      "new": 3599
+    },
+    "total_cases": {
+      "cummulative": 161576,
+      "new": 423
+    },
+    "deaths": {
+      "cummulative": 2899,
+      "new": 8
+    },
     "test_per_million": 590901,
     "positivity_rate": 11.753264795776605,
     "active_cases": 5201
@@ -1466,11 +2531,26 @@
     "recovery_rate": 95.08,
     "recovered_patients": 154077,
     "recovery_24": 601,
-    "home_isolation": { "cummulative": 111106, "new": 402 },
-    "hospitalized": { "cummulative": 27471, "new": 70 },
-    "tested": { "cummulative": 865133, "new": 3278 },
-    "total_cases": { "cummulative": 162048, "new": 472 },
-    "deaths": { "cummulative": 2914, "new": 15 },
+    "home_isolation": {
+      "cummulative": 111106,
+      "new": 402
+    },
+    "hospitalized": {
+      "cummulative": 27471,
+      "new": 70
+    },
+    "tested": {
+      "cummulative": 865133,
+      "new": 3278
+    },
+    "total_cases": {
+      "cummulative": 162048,
+      "new": 472
+    },
+    "deaths": {
+      "cummulative": 2914,
+      "new": 15
+    },
     "test_per_million": 593148,
     "positivity_rate": 14.399023794996948,
     "active_cases": 5057
@@ -1487,11 +2567,26 @@
     "recovery_rate": 95.19,
     "recovered_patients": 154658,
     "recovery_24": 581,
-    "home_isolation": { "cummulative": 111476, "new": 370 },
-    "hospitalized": { "cummulative": 27521, "new": 50 },
-    "tested": { "cummulative": 868135, "new": 3002 },
-    "total_cases": { "cummulative": 162468, "new": 420 },
-    "deaths": { "cummulative": 2928, "new": 14 },
+    "home_isolation": {
+      "cummulative": 111476,
+      "new": 370
+    },
+    "hospitalized": {
+      "cummulative": 27521,
+      "new": 50
+    },
+    "tested": {
+      "cummulative": 868135,
+      "new": 3002
+    },
+    "total_cases": {
+      "cummulative": 162468,
+      "new": 420
+    },
+    "deaths": {
+      "cummulative": 2928,
+      "new": 14
+    },
     "test_per_million": 595206,
     "positivity_rate": 13.990672884743505,
     "active_cases": 4882
@@ -1508,11 +2603,26 @@
     "recovery_rate": 95.49,
     "recovered_patients": 155378,
     "recovery_24": 720,
-    "home_isolation": { "cummulative": 111693, "new": 217 },
-    "hospitalized": { "cummulative": 27557, "new": 36 },
-    "tested": { "cummulative": 869830, "new": 1695 },
-    "total_cases": { "cummulative": 162721, "new": 253 },
-    "deaths": { "cummulative": 2937, "new": 9 },
+    "home_isolation": {
+      "cummulative": 111693,
+      "new": 217
+    },
+    "hospitalized": {
+      "cummulative": 27557,
+      "new": 36
+    },
+    "tested": {
+      "cummulative": 869830,
+      "new": 1695
+    },
+    "total_cases": {
+      "cummulative": 162721,
+      "new": 253
+    },
+    "deaths": {
+      "cummulative": 2937,
+      "new": 9
+    },
     "test_per_million": 596368,
     "positivity_rate": 14.926253687315635,
     "active_cases": 4406
@@ -1529,13 +2639,496 @@
     "recovery_rate": 95.63,
     "recovered_patients": 155926,
     "recovery_24": 548,
-    "home_isolation": { "cummulative": 111972, "new": 279 },
-    "hospitalized": { "cummulative": 27602, "new": 45 },
-    "tested": { "cummulative": 872950, "new": 3120 },
-    "total_cases": { "cummulative": 163048, "new": 327 },
-    "deaths": { "cummulative": 2947, "new": 10 },
+    "home_isolation": {
+      "cummulative": 111972,
+      "new": 279
+    },
+    "hospitalized": {
+      "cummulative": 27602,
+      "new": 45
+    },
+    "tested": {
+      "cummulative": 872950,
+      "new": 3120
+    },
+    "total_cases": {
+      "cummulative": 163048,
+      "new": 327
+    },
+    "deaths": {
+      "cummulative": 2947,
+      "new": 10
+    },
     "test_per_million": 598507,
     "positivity_rate": 10.480769230769232,
     "active_cases": 4175
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-15T18:30:00.000Z",
+    "recovery_rate": 95.71,
+    "recovered_patients": 156354,
+    "recovery_24": 428,
+    "home_isolation": {
+      "cummulative": 112240,
+      "new": 268
+    },
+    "hospitalized": {
+      "cummulative": 27644,
+      "new": 42
+    },
+    "tested": {
+      "cummulative": 875538,
+      "new": 2588
+    },
+    "total_cases": {
+      "cummulative": 163358,
+      "new": 310
+    },
+    "deaths": {
+      "cummulative": 2960,
+      "new": 13
+    },
+    "test_per_million": 600282,
+    "positivity_rate": 11.978361669242659,
+    "active_cases": 4044
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-16T18:30:00.000Z",
+    "recovery_rate": 95.85,
+    "recovered_patients": 156819,
+    "recovery_24": 468,
+    "home_isolation": {
+      "cummulative": 112466,
+      "new": 226
+    },
+    "hospitalized": {
+      "cummulative": 27672,
+      "new": 28
+    },
+    "tested": {
+      "cummulative": 878491,
+      "new": 2953
+    },
+    "total_cases": {
+      "cummulative": 163612,
+      "new": 254
+    },
+    "deaths": {
+      "cummulative": 2969,
+      "new": 6
+    },
+    "test_per_million": 602306,
+    "positivity_rate": 8.601422282424654,
+    "active_cases": 3824
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-17T18:30:00.000Z",
+    "recovery_rate": 95.99,
+    "recovered_patients": 157353,
+    "recovery_24": 534,
+    "home_isolation": {
+      "cummulative": 112740,
+      "new": 274
+    },
+    "hospitalized": {
+      "cummulative": 534,
+      "new": 41
+    },
+    "tested": {
+      "cummulative": 882511,
+      "new": 4020
+    },
+    "total_cases": {
+      "cummulative": 163927,
+      "new": 315
+    },
+    "deaths": {
+      "cummulative": 2975,
+      "new": 6
+    },
+    "test_per_million": 605063,
+    "positivity_rate": 7.835820895522389,
+    "active_cases": 3599
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-18T18:30:00.000Z",
+    "recovery_rate": 96.07,
+    "recovered_patients": 157772,
+    "recovery_24": 419,
+    "home_isolation": {
+      "cummulative": 112995,
+      "new": 255
+    },
+    "hospitalized": {
+      "cummulative": 27760,
+      "new": 47
+    },
+    "tested": {
+      "cummulative": 885980,
+      "new": 3469
+    },
+    "total_cases": {
+      "cummulative": 164229,
+      "new": 302
+    },
+    "deaths": {
+      "cummulative": 2984,
+      "new": 9
+    },
+    "test_per_million": 607441,
+    "positivity_rate": 8.705678869991353,
+    "active_cases": 3473
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-19T18:30:00.000Z",
+    "recovery_rate": 96.19,
+    "recovered_patients": 158178,
+    "recovery_24": 406,
+    "home_isolation": {
+      "cummulative": 113175,
+      "new": 180
+    },
+    "hospitalized": {
+      "cummulative": 27787,
+      "new": 27
+    },
+    "tested": {
+      "cummulative": 888422,
+      "new": 2442
+    },
+    "total_cases": {
+      "cummulative": 164436,
+      "new": 207
+    },
+    "deaths": {
+      "cummulative": 2990,
+      "new": 6
+    },
+    "test_per_million": 609115,
+    "positivity_rate": 8.476658476658477,
+    "active_cases": 3268
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-20T18:30:00.000Z",
+    "recovery_rate": 96.32,
+    "recovered_patients": 158591,
+    "recovery_24": 413,
+    "home_isolation": {
+      "cummulative": 113365,
+      "new": 190
+    },
+    "hospitalized": {
+      "cummulative": 27815,
+      "new": 28
+    },
+    "tested": {
+      "cummulative": 891098,
+      "new": 2676
+    },
+    "total_cases": {
+      "cummulative": 164654,
+      "new": 218
+    },
+    "deaths": {
+      "cummulative": 2997,
+      "new": 7
+    },
+    "test_per_million": 610950,
+    "positivity_rate": 8.146487294469356,
+    "active_cases": 3066
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-21T18:30:00.000Z",
+    "recovery_rate": 96.41,
+    "recovered_patients": 159029,
+    "recovery_24": 438,
+    "home_isolation": {
+      "cummulative": 113626,
+      "new": 261
+    },
+    "hospitalized": {
+      "cummulative": 27857,
+      "new": 42
+    },
+    "tested": {
+      "cummulative": 895409,
+      "new": 4311
+    },
+    "total_cases": {
+      "cummulative": 164957,
+      "new": 303
+    },
+    "deaths": {
+      "cummulative": 3008,
+      "new": 11
+    },
+    "test_per_million": 613906,
+    "positivity_rate": 7.028531663187196,
+    "active_cases": 2920
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-22T18:30:00.000Z",
+    "recovery_rate": 96.5,
+    "recovered_patients": 159419,
+    "recovery_24": 390,
+    "home_isolation": {
+      "cummulative": 113826,
+      "new": 200
+    },
+    "hospitalized": {
+      "cummulative": 27897,
+      "new": 40
+    },
+    "tested": {
+      "cummulative": 898554,
+      "new": 3145
+    },
+    "total_cases": {
+      "cummulative": 165197,
+      "new": 240
+    },
+    "deaths": {
+      "cummulative": 3013,
+      "new": 5
+    },
+    "test_per_million": 616062,
+    "positivity_rate": 7.631160572337042,
+    "active_cases": 2765
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-23T18:30:00.000Z",
+    "recovery_rate": 96.52,
+    "recovered_patients": 159677,
+    "recovery_24": 258,
+    "home_isolation": {
+      "cummulative": 114020,
+      "new": 194
+    },
+    "hospitalized": {
+      "cummulative": 27932,
+      "new": 35
+    },
+    "tested": {
+      "cummulative": 902150,
+      "new": 3596
+    },
+    "total_cases": {
+      "cummulative": 165426,
+      "new": 229
+    },
+    "deaths": {
+      "cummulative": 3022,
+      "new": 9
+    },
+    "test_per_million": 618527,
+    "positivity_rate": 6.368186874304784,
+    "active_cases": 2727
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-24T18:30:00.000Z",
+    "recovery_rate": 96.56,
+    "recovered_patients": 159954,
+    "recovery_24": 277,
+    "home_isolation": {
+      "cummulative": 114220,
+      "new": 200
+    },
+    "hospitalized": {
+      "cummulative": 27954,
+      "new": 22
+    },
+    "tested": {
+      "cummulative": 905356,
+      "new": 3206
+    },
+    "total_cases": {
+      "cummulative": 165648,
+      "new": 222
+    },
+    "deaths": {
+      "cummulative": 3027,
+      "new": 5
+    },
+    "test_per_million": 620725,
+    "positivity_rate": 6.924516531503431,
+    "active_cases": 2667
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-25T18:30:00.000Z",
+    "recovery_rate": 96.6,
+    "recovered_patients": 160247,
+    "recovery_24": 293,
+    "home_isolation": {
+      "cummulative": 114440,
+      "new": 220
+    },
+    "hospitalized": {
+      "cummulative": 27965,
+      "new": 11
+    },
+    "tested": {
+      "cummulative": 908359,
+      "new": 3003
+    },
+    "total_cases": {
+      "cummulative": 165883,
+      "new": 235
+    },
+    "deaths": {
+      "cummulative": 3032,
+      "new": 5
+    },
+    "test_per_million": 622784,
+    "positivity_rate": 7.825507825507826,
+    "active_cases": 2604
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-26T18:30:00.000Z",
+    "recovery_rate": 96.66,
+    "recovered_patients": 160548,
+    "recovery_24": 301,
+    "home_isolation": {
+      "cummulative": 114627,
+      "new": 187
+    },
+    "hospitalized": {
+      "cummulative": 27993,
+      "new": 28
+    },
+    "tested": {
+      "cummulative": 911479,
+      "new": 3120
+    },
+    "total_cases": {
+      "cummulative": 166098,
+      "new": 215
+    },
+    "deaths": {
+      "cummulative": 3039,
+      "new": 7
+    },
+    "test_per_million": 624923,
+    "positivity_rate": 6.891025641025641,
+    "active_cases": 2511
+  },
+  {
+    "institiution": {
+      "head": "Integrated Disease Surveillance Programme (IDSP)",
+      "sub": "Directorate of Health Services,",
+      "address": "Campal, Panaji-Goa",
+      "telephone": "No.",
+      "email": " gassu.idsp@nic.in"
+    },
+    "date": "2021-06-27T18:30:00.000Z",
+    "recovery_rate": 96.77,
+    "recovered_patients": 160874,
+    "recovery_24": 326,
+    "home_isolation": {
+      "cummulative": 114733,
+      "new": 106
+    },
+    "hospitalized": {
+      "cummulative": 28025,
+      "new": 32
+    },
+    "tested": {
+      "cummulative": 913966,
+      "new": 2487
+    },
+    "total_cases": {
+      "cummulative": 166236,
+      "new": 138
+    },
+    "deaths": {
+      "cummulative": 3046,
+      "new": 7
+    },
+    "test_per_million": 626629,
+    "positivity_rate": 5.548854041013269,
+    "active_cases": 2316
   }
 ]
